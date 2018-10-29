@@ -1,0 +1,36 @@
+﻿Contraintes:
+
+
+- Pas 2 fois le même plat dans la semaine
+
+Distinct(Range(0, nbMenus -1).Select(i=>Menus[i].Entree.Id).toArray());
+
+
+
+- Plats parmi entrée, plats dessert etc.
+
+
+
+- Plats parmi la collection de recettes
+	foreach Plat
+		PlatId >=0 && PlatId < Dietetique.Plats.Count -1
+    for (int recetteId = 0; recetteId< Dietetique.Plats.Count)
+	{
+		foreach Plat
+	  //platId!=recetteId || plat.Ingredients == Dietetique.Plats[i].Ingredients
+	  platId!=recetteId || Range(1,10).All(i=>Dietetique.Plats[i].Ingredients[i].Denree == Plat.Ingredients[i].Denree
+												&& Dietetique.Plats.Ingredients[i].Quantite == Plat.Ingredients[i].Quantite)
+	}
+	foreach Denree
+	    DenreeId >=0 && DenreeId < Denrees.Count -1
+
+- Ingrédients disponibles
+
+
+
+
+- Composition respectant les Restrictions
+ Lundi_Zinc = Lundi_Zinc_Entree + ... Lundi_Zinc_Gouters
+Lundi_Entree_Zinc = Somme( Lundi_Entree_Ingredient1_Zinc ... Lundi_Entree_Ingredient2_Zinc)
+Lundi_Entree_Ingredient1_Zinc = Lundi_Entree_Ingredient1_Quantite * Lundi_Entree_Ingredient1_Denree_Zinc
+Lundi_Entree_Ingredient1_Denree_Zinc = Lundi_Entree_Ingredient1_Denree_Composition_Zinc
