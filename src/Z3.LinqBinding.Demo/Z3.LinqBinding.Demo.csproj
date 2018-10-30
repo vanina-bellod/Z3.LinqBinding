@@ -81,7 +81,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="HospitalMealPlanner.cs" />
+    <Compile Include="PlanificateurDeMenus.cs" />
     <Compile Include="MissionariesAndCannibals.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
