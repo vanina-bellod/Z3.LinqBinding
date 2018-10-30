@@ -72,6 +72,9 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1-beta1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -81,13 +84,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ciqual.cs" />
     <Compile Include="PlanificateurDeMenus.cs" />
     <Compile Include="MissionariesAndCannibals.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recettes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="App_data\Meals\Recettes\denrees.json" />
+    <None Include="App_data\Meals\Recettes\menus.json" />
+    <None Include="App_data\Meals\Recettes\plats.json" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Z3.LinqBinding.Sudoku\Z3.LinqBinding.Sudoku.csproj">
@@ -100,6 +109,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_data\Meals\Ciqual\alim_2017 11 21.xml" />
+    <Content Include="App_data\Meals\Ciqual\alim_grp_2017 11 21.xml" />
+    <Content Include="App_data\Meals\Ciqual\compo_2017 11 21.xml" />
+    <Content Include="App_data\Meals\Ciqual\const_2017 11 21.xml" />
+    <Content Include="App_data\Meals\Ciqual\sources_2017 11 21.xml" />
     <Content Include="Brainstorm.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

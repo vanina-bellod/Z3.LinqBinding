@@ -9,14 +9,34 @@ namespace Z3.LinqBindingDemo
     {
         private static void Main(string[] args)
         {
+
+
+            SimpleExamples();
+
+            //TestSudoku();
+
+            //TestMissionariesAndCannibals();
+
+            //MealPlanning();
+
+
+            //AllSamplesInSameContext();
+
+            Console.Read();
+
+
+        }
+
+        private static void SimpleExamples()
+        {
             // Basic Usage
             using (var ctx = new Z3Context())
             {
                 ctx.Log = Console.Out; // see internal logging
 
                 var theorem = from t in ctx.NewTheorem(new { x = default(bool), y = default(bool) })
-                              where t.x ^ t.y
-                              select t;
+                    where t.x ^ t.y
+                    select t;
 
                 var result = theorem.Solve();
                 Console.WriteLine(result);
@@ -28,15 +48,29 @@ namespace Z3.LinqBindingDemo
                 ctx.Log = Console.Out; // see internal logging
 
                 var theorem = from t in ctx.NewTheorem<Symbols<int, int>>()
-                              where t.X1 < t.X2 + 1
-                              where t.X1 > 2
-                              where t.X1 != t.X2
-                              select t;
+                    where t.X1 < t.X2 + 1
+                    where t.X1 > 2
+                    where t.X1 != t.X2
+                    select t;
 
                 var result = theorem.Solve();
                 Console.WriteLine(result);
             }
 
+        }
+
+
+        private static void MealPlanning()
+        {
+            //Testing meal planning
+            var basePath = @"..\..\..\App_Data\Meals\";
+            var dietetique = Dietetique.Load(basePath);
+
+        }
+
+
+        private static void TestSudoku()
+        {
             // Sudoku Extension Usage (Z3.LinqBinding.Sudoku)
             using (var ctx = new Z3Context())
             {
@@ -85,6 +119,11 @@ namespace Z3.LinqBindingDemo
 
 
 
+        }
+
+
+        private static void TestMissionariesAndCannibals()
+        {
             // Solving Canibals & Missionaires
 
             using (var ctx = new Z3Context())
@@ -132,13 +171,6 @@ namespace Z3.LinqBindingDemo
                 Console.WriteLine("Minimal Solution to missionaries and cannibals simplified through Z3 optimization");
                 Console.WriteLine($"Time to solve: {endTime - startTime}");
             }
-
-
-            //AllSamplesInSameContext();
-
-            Console.Read();
-
-
         }
 
 

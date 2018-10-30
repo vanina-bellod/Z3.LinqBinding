@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using Newtonsoft.Json;
 using Z3.LinqBinding;
 
 namespace Z3.LinqBindingDemo
@@ -100,14 +102,6 @@ namespace Z3.LinqBindingDemo
 
     }
 
-
-
-
-
-
-
-
-
     public class Dietetique
     {
 
@@ -119,11 +113,29 @@ namespace Z3.LinqBindingDemo
 
         public List<Constituant> Constituants { get; set; }
 
+        public static Dietetique Load(string basePath)
+        {
+            var toReturn = new Dietetique();
+            var ciqualPath = Path.Combine(basePath, @"Ciqual\");
+            var ciqual = Ciqual.Load(ciqualPath);
+            var recettesPath = Path.Combine(basePath, @"Recettes\");
+            var recettes = Recettes.Load(recettesPath);
+
+            toReturn.Constituants = new List<Constituant>(ciqual.Constituants.CONST.Select( c => new Constituant() {Nom = c.const_nom_fr}));
+            toReturn.Denrees = new List<DenreeImport>(recettes.Denrees.Property1.Select(d => new DenreeImport()
+            {
+                Nom = d.fields.libelle_denree,
+                //Compositions = toReturn.Constituants.Select(c=>ciqual.Compositions.COMPO.Select(c=>c.))
+            }));
+
+            var savePath = Path.Combine(basePath, @"dietetique.json");
+            var strDietetique = JsonConvert.SerializeObject(toReturn);
+            File.WriteAllText(savePath, strDietetique);
+
+            return toReturn;
+        }
 
     }
-
-
-
 
     public class Menu
     {
