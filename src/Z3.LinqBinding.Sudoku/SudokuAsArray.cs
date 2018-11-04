@@ -8,8 +8,8 @@ namespace Z3.LinqBinding.Sudoku
 {
 
    /// <summary>
-   /// Class that represents a Sudoku, fully or partially completed
-   /// Holds a list of 81 int for cells, with 0 for empty cells
+   /// Class that represents a Sudoku, fully or partially completed.
+   /// It holds a list of 81 int for cells, with 0 for empty cells
    /// Can parse strings and files from most common formats and displays the sudoku in an easy to read format
    /// </summary>
    public class SudokuAsArray
@@ -19,15 +19,6 @@ namespace Z3.LinqBinding.Sudoku
 
       // The List property makes it easier to manipulate cells,
       public List<int> Cells { get; set; } = Enumerable.Repeat(0, 81).ToList();
-
-      ///// <summary>
-      ///// The array property is to be used in linq to Z3
-      ///// </summary>
-      //public int[] Cells
-      //{
-      //   get => CellsList.ToArray();
-      //   set => CellsList = new List<int>(value);
-      //}
 
       /// <summary>
       /// Creates a Z3 theorem to solve the sudoku, adding the general constraints, and the mask constraints for this particular Sudoku
@@ -118,7 +109,6 @@ namespace Z3.LinqBinding.Sudoku
 
          return sudokuTheorem;
       }
-
 
 
       /// <summary>

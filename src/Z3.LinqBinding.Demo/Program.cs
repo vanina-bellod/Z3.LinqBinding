@@ -1,9 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.Linq;
 using Z3.LinqBinding;
+using Z3.LinqBinding.Demo;
 using Z3.LinqBinding.Sudoku;
 
-namespace Z3.LinqBindingDemo
+namespace Z3.LinqBinding.Demo
 {
     internal class Program
     {
@@ -11,17 +14,16 @@ namespace Z3.LinqBindingDemo
         {
 
 
-            SimpleExamples();
+            //SimpleExamples();
 
             //TestSudoku();
 
             //TestMissionariesAndCannibals();
 
-            //MealPlanning();
-
+            MealPlanning();
 
             //AllSamplesInSameContext();
-
+            Console.WriteLine("End Program");
             Console.Read();
 
 
@@ -35,8 +37,8 @@ namespace Z3.LinqBindingDemo
                 ctx.Log = Console.Out; // see internal logging
 
                 var theorem = from t in ctx.NewTheorem(new { x = default(bool), y = default(bool) })
-                    where t.x ^ t.y
-                    select t;
+                              where t.x ^ t.y
+                              select t;
 
                 var result = theorem.Solve();
                 Console.WriteLine(result);
@@ -48,10 +50,10 @@ namespace Z3.LinqBindingDemo
                 ctx.Log = Console.Out; // see internal logging
 
                 var theorem = from t in ctx.NewTheorem<Symbols<int, int>>()
-                    where t.X1 < t.X2 + 1
-                    where t.X1 > 2
-                    where t.X1 != t.X2
-                    select t;
+                              where t.X1 < t.X2 + 1
+                              where t.X1 > 2
+                              where t.X1 != t.X2
+                              select t;
 
                 var result = theorem.Solve();
                 Console.WriteLine(result);
@@ -65,6 +67,39 @@ namespace Z3.LinqBindingDemo
             //Testing meal planning
             var basePath = @"..\..\..\App_Data\Meals\";
             var dietetique = Dietetique.Load(basePath);
+
+	        var patients = new List<Patient>();
+	        var monPatient = new Patient();
+			monPatient.AddRestriction(dietetique, new RestrictionReadable()
+			{
+				Constituant = " Sel chlorure de sodium (g/100g) ",
+				Max = 120,
+			});
+	        patients.Add(monPatient);
+	        monPatient = new Patient();
+	        monPatient.AddRestriction(dietetique, new RestrictionReadable()
+	        {
+		        Constituant = " Energie, Règlement UE N° 1169/2011 (kJ/100g) ",
+		        Max = 12000,
+	        });
+	        patients.Add(monPatient);
+	        monPatient = new Patient();
+	        monPatient.AddRestriction(dietetique, new RestrictionReadable()
+	        {
+		        Constituant = " Cholestérol (mg/100g) ",
+		        Max = 300,
+	        });
+	        patients.Add(monPatient);
+			using (var ctx = new Z3Context())
+            {
+	            ctx.Log = Console.Out;
+				var mealPlanner = new PlanificateurDeMenus(dietetique);
+                
+                var theorem = mealPlanner.Create(ctx, patients);
+                var result = theorem.Solve();
+                result.Dietetique = dietetique;
+                Console.WriteLine(result);
+            }
 
         }
 
@@ -94,6 +129,7 @@ namespace Z3.LinqBindingDemo
             // Sudoku Extension Usage (Z3.LinqBinding.Sudoku)
             using (var ctx = new Z3Context())
             {
+                //ctx.Log = Console.Out;
                 var theorem = SudokuAsArray
                    .Parse("9.2..54.31...63.255.84.7.6..263.9..1.57.1.29..9.67.53.24.53.6..7.52..3.4.8..4195.") // Very easy
                    .CreateTheorem(ctx);
@@ -112,6 +148,13 @@ namespace Z3.LinqBindingDemo
                 theorem = SudokuAsArray
                    .Parse("....9.4.8.....2.7..1.7....32.4..156...........952..7.19....5.1..3.4.....1.2.7....") // Hard
                    .CreateTheorem(ctx);
+                theorem.DefaultCollectionHandling = CollectionHandling.Array;
+                result = theorem.Solve();
+                Console.WriteLine(result);
+                theorem.DefaultCollectionHandling = CollectionHandling.Constants;
+                result = theorem.Solve();
+                Console.WriteLine(result);
+                theorem = ctx.NewTheorem<SudokuAsArray>();
                 result = theorem.Solve();
                 Console.WriteLine(result);
 
@@ -128,7 +171,7 @@ namespace Z3.LinqBindingDemo
 
             using (var ctx = new Z3Context())
             {
-                var can = new MissionariesAndCannibals() { NbMissionaries = 3, SizeBoat = 2, Length = 50 };
+                var can = new MissionariesAndCannibals() { NbMissionaries = 3, SizeBoat = 2, Length = 30 };
                 var startTime = stopwatch.Elapsed;
                 var minimal = MissionariesAndCannibals.SearchMinimal(can);
                 var endTime = stopwatch.Elapsed;
@@ -137,6 +180,8 @@ namespace Z3.LinqBindingDemo
                 Console.WriteLine($"Time to solve: {endTime - startTime}");
 
                 var theorem = can.Create(ctx);
+                var resolution = theorem.Solve();
+                Console.WriteLine(resolution);
                 startTime = stopwatch.Elapsed;
                 minimal = theorem.Optimize(Optimization.Minimize, objMnC => objMnC.Length);
                 endTime = stopwatch.Elapsed;

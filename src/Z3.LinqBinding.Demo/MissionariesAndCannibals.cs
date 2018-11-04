@@ -4,7 +4,7 @@ using System.Text;
 using System.Xml.Schema;
 using Z3.LinqBinding;
 
-namespace Z3.LinqBindingDemo
+namespace Z3.LinqBinding.Demo
 {
 
    /// <summary>
@@ -119,7 +119,8 @@ namespace Z3.LinqBindingDemo
                   && caM.Missionaries[caM.Length - 1] == 0
                   && caM.Cannibals[caM.Length - 1] == 0
          );
-
+        // Since we are going to use the variable length as an index as per the goal state, we need to switch to an array theory rather than simple constants
+          theorem.DefaultCollectionHandling = CollectionHandling.Array;
 
          return theorem;
 

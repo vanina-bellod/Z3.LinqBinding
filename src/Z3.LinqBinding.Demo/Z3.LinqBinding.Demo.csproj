@@ -84,18 +84,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ciqual.cs" />
-    <Compile Include="PlanificateurDeMenus.cs" />
+    <Compile Include="MealPlanning\Ciqual.cs" />
+    <Compile Include="MealPlanning\PlanificateurDeMenus.cs" />
     <Compile Include="MissionariesAndCannibals.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Recettes.cs" />
+    <Compile Include="MealPlanning\Recettes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="App_data\Meals\Recettes\denrees.json" />
+    <None Include="App_data\Meals\Recettes\denrees1104.json" />
     <None Include="App_data\Meals\Recettes\menus.json" />
+    <None Include="App_data\Meals\Recettes\menus1104.json" />
     <None Include="App_data\Meals\Recettes\plats.json" />
+    <None Include="App_data\Meals\Recettes\plats1104.json" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>

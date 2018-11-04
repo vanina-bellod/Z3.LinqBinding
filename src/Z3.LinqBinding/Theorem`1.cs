@@ -57,6 +57,16 @@ namespace Z3.LinqBinding
       public Theorem<T> Where(Expression<Func<T, bool>> constraint)
         {
             return new Theorem<T>(base.Context, base.Constraints.Concat(new List<LambdaExpression> { constraint }));
+            //var newConstraints = (List<LambdaExpression>)(this.Constraints);
+            //newConstraints.Add(constraint);
+            //return new Theorem<T>(base.Context, newConstraints);
         }
+
+
+        public void Assert(Expression<Func<T, bool>> constraint)
+        {
+            this.AssertConstraint(constraint);
+        }
+
     }
 }

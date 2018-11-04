@@ -41,12 +41,14 @@ namespace Z3.LinqBinding
 
     public class MultipleEnvironment : Environment
     {
-        public MultipleEnvironment(string prefix)
+        public MultipleEnvironment(string prefix, Type elementType)
         {
             Prefix = prefix;
+            ElementType = elementType;
         }
         public string Prefix { get; set; }
-        public Dictionary<object, Environment> SubEnvironments { get; set; }
+        public Type ElementType { get; set; }
+        public Dictionary<object, Environment> SubEnvironments { get; set; } = new Dictionary<object, Environment>();
 
     }
 
@@ -63,7 +65,7 @@ namespace Z3.LinqBinding
         /// <summary>
         /// Theorem constraints.
         /// </summary>
-        private IEnumerable<LambdaExpression> _constraints;
+        private IList<LambdaExpression> _constraints;
 
         /// <summary>
         /// Z3 context under which the theorem is solved.
@@ -87,7 +89,7 @@ namespace Z3.LinqBinding
         protected Theorem(Z3Context context, IEnumerable<LambdaExpression> constraints)
         {
             _context = context;
-            _constraints = constraints;
+            _constraints = new List<LambdaExpression>(constraints);
         }
 
         /// <summary>
@@ -118,8 +120,17 @@ namespace Z3.LinqBinding
         /// <returns>Comma-separated string representation of the theorem's constraints.</returns>
         public override string ToString()
         {
-            return string.Join(", ", (from c in _constraints select c.Body.ToString()).ToArray());
+            //return string.Join(", ", (from c in _constraints select c.Body.ToString()).ToArray());
+            return "";
         }
+
+
+        public void AssertConstraint(LambdaExpression constraint)
+        {
+            this._constraints.Add(constraint);
+        }
+
+
 
         /// <summary>
         /// Solves the theorem using Z3.
@@ -147,7 +158,14 @@ namespace Z3.LinqBinding
                 //if (context.CheckAndGetModel(ref model) != LBool.True)
                 //    return default(T);
 
+
+
+                var sw = Stopwatch.StartNew();
                 Status status = solver.Check();
+                sw.Stop();
+                _context.LogWriteLine($"Time to solution: {sw.Elapsed.TotalMilliseconds} ms");
+
+
                 if (status != Status.SATISFIABLE)
                 {
                     return default(T);
@@ -226,74 +244,71 @@ namespace Z3.LinqBinding
                 {
                     elType = targetType.GetGenericArguments()[0];
                 }
-                Expr constrExp = null;
-                Sort arrDomain;
-                Sort arrRange;
-                switch (Type.GetTypeCode(elType))
+                switch (DefaultCollectionHandling)
                 {
-                    case TypeCode.String:
-                        arrDomain = context.StringSort;
-                        arrRange = context.MkBitVecSort(16);
-                        break;
-                    case TypeCode.Int16:
-                        arrDomain = context.IntSort;
-                        arrRange = context.MkBitVecSort(16);
-                        break;
-                    case TypeCode.Int32:
-                        arrDomain = context.IntSort;
-                        arrRange = context.IntSort;
-                        break;
-                    case TypeCode.Int64:
-                    case TypeCode.DateTime:
-                        arrDomain = context.IntSort;
-                        arrRange = context.MkBitVecSort(64);
-                        break;
-                    case TypeCode.Boolean:
-                        arrDomain = context.BoolSort;
-                        arrRange = context.BoolSort;
-                        break;
-                    case TypeCode.Single:
-                        arrDomain = context.RealSort;
-                        arrRange = context.MkFPSortSingle();
-                        break;
-                    case TypeCode.Decimal:
-                        arrDomain = context.RealSort;
-                        arrRange = context.MkFPSortSingle();
-                        break;
-                    case TypeCode.Double:
-                        arrDomain = context.RealSort;
-                        arrRange = context.MkFPSortDouble();
-                        break;
-                    case TypeCode.Object:
-                        switch (DefaultCollectionHandling)
+                    case CollectionHandling.Constants:
+                        return new MultipleEnvironment(prefix, elType);
+                    case CollectionHandling.Array:
+                        Expr constrExp = null;
+                        Sort arrDomain;
+                        Sort arrRange;
+                        switch (Type.GetTypeCode(elType))
                         {
-                            case CollectionHandling.Array:
+                            case TypeCode.String:
+                                arrDomain = context.StringSort;
+                                arrRange = context.StringSort;
+                                //arrRange = context.MkBitVecSort(16);
+                                break;
+                            case TypeCode.Int16:
+                                arrDomain = context.IntSort;
+                                arrRange = context.IntSort;
+                                //arrRange = context.MkBitVecSort(16);
+                                break;
+                            case TypeCode.Int32:
+                                arrDomain = context.IntSort;
+                                arrRange = context.IntSort;
+                                break;
+                            case TypeCode.Int64:
+                            case TypeCode.DateTime:
+                                arrDomain = context.IntSort;
+                                arrRange = context.IntSort;
+                                //arrRange = context.MkBitVecSort(64);
+                                break;
+                            case TypeCode.Boolean:
+                                arrDomain = context.BoolSort;
+                                arrRange = context.BoolSort;
+                                break;
+                            //case TypeCode.Single:
+                            //    arrDomain = context.RealSort;
+                            //    arrRange = context.MkFPSortSingle();
+                            //    break;
+                            //case TypeCode.Decimal:
+                            //    arrDomain = context.RealSort;
+                            //    arrRange = context.MkFPSortSingle();
+                            //    break;
+                            //case TypeCode.Double:
+                            //    arrDomain = context.RealSort;
+                            //    arrRange = context.MkFPSortDouble();
+                            //    break;
+                            case TypeCode.Single:
+                            case TypeCode.Decimal:
+                            case TypeCode.Double:
+                                arrDomain = context.RealSort;
+                                arrRange = context.RealSort;
+                                break;
+                            case TypeCode.Object:
                                 toReturn.IsArray = true;
-                                foreach (PropertyInfo parameter in elType.GetProperties(BindingFlags.Public | BindingFlags.Instance))
-                                {
-                                    var parameterType = parameter.PropertyType;
-                                    var parameterTypeMapping = (TheoremVariableTypeMappingAttribute)parameterType.GetCustomAttributes(typeof(TheoremVariableTypeMappingAttribute), false).SingleOrDefault();
-                                    if (parameterTypeMapping != null)
-                                        parameterType = parameterTypeMapping.RegularType;
-                                    var newPrefix = parameter.Name;
-                                    if (!string.IsNullOrEmpty(prefix))
-                                    {
-                                        newPrefix = $"{prefix}_{newPrefix}";
-                                    }
-                                    toReturn.Properties[parameter] = GetEnvironment(context, parameterType, newPrefix, true);
-                                }
-                                break;
-                            case CollectionHandling.Constants:
-                                toReturn = new MultipleEnvironment(prefix);
-                                break;
-                        }
-                        return toReturn;
-                    default:
-                        throw new NotSupportedException($"Unsupported member type {targetType.FullName}");
+                                CreateEnvironmentProperties(toReturn, context, elType, prefix, true);
+                                return toReturn;
+                            default:
+                                throw new NotSupportedException($"Unsupported member type {targetType.FullName}");
 
+                        }
+                        constrExp = context.MkArrayConst(prefix, arrDomain, arrRange);
+                        toReturn.Expr = constrExp;
+                        break;
                 }
-                constrExp = context.MkArrayConst(prefix, arrDomain, arrRange);
-                toReturn.Expr = constrExp;
+
             }
             else
             {
@@ -318,19 +333,7 @@ namespace Z3.LinqBinding
                         constrExp = context.MkRealConst(prefix);
                         break;
                     case TypeCode.Object:
-                        foreach (var parameter in targetType.GetProperties(BindingFlags.Public | BindingFlags.Instance))
-                        {
-                            var parameterType = parameter.PropertyType;
-                            var parameterTypeMapping = (TheoremVariableTypeMappingAttribute)parameterType.GetCustomAttributes(typeof(TheoremVariableTypeMappingAttribute), false).SingleOrDefault();
-                            if (parameterTypeMapping != null)
-                                parameterType = parameterTypeMapping.RegularType;
-                            var newPrefix = parameter.Name;
-                            if (!string.IsNullOrEmpty(prefix))
-                            {
-                                newPrefix = $"{prefix}_{newPrefix}";
-                            }
-                            toReturn.Properties[parameter] = GetEnvironment(context, parameterType, newPrefix, false);
-                        }
+                        CreateEnvironmentProperties(toReturn, context, targetType, prefix, false);
                         return toReturn;
                     default:
                         throw new NotSupportedException($"Unsupported parameter type for prefix {prefix} and target type {targetType}");
@@ -342,7 +345,22 @@ namespace Z3.LinqBinding
             return toReturn;
         }
 
-
+        private void CreateEnvironmentProperties(Environment toUpdate, Context context, Type targetType, string prefix, bool isArray)
+        {
+            foreach (var parameter in targetType.GetProperties(BindingFlags.Public | BindingFlags.Instance))
+            {
+                var parameterType = parameter.PropertyType;
+                var parameterTypeMapping = (TheoremVariableTypeMappingAttribute)parameterType.GetCustomAttributes(typeof(TheoremVariableTypeMappingAttribute), false).SingleOrDefault();
+                if (parameterTypeMapping != null)
+                    parameterType = parameterTypeMapping.RegularType;
+                var newPrefix = parameter.Name;
+                if (!string.IsNullOrEmpty(prefix))
+                {
+                    newPrefix = $"{prefix}_{newPrefix}";
+                }
+                toUpdate.Properties[parameter] = GetEnvironment(context, parameterType, newPrefix, isArray);
+            }
+        }
 
 
 
@@ -380,7 +398,7 @@ namespace Z3.LinqBinding
                 //
                 // Do the rewrite.
                 //
-                constraints = rewriter.Rewrite(constraints);
+                constraints = new List<LambdaExpression>(rewriter.Rewrite(constraints));
             }
 
             //
@@ -411,9 +429,7 @@ namespace Z3.LinqBinding
                 }
 
 
-                //_context.LogWriteLine(context.ToString(c));
-
-                _context.LogWriteLine(c.ToString());
+                //_context.LogWriteLine(c.ToString());
             }
         }
 
@@ -516,7 +532,7 @@ namespace Z3.LinqBinding
 
         private object ConvertZ3Expression(object destinationObject, Context context, Model model, Environment subEnv, PropertyInfo parameter)
         {
-            object value = null;
+            object value;
 
             //
             // Normalize types when facing Z3. Theorem variable type mappings allow for strong
@@ -532,154 +548,182 @@ namespace Z3.LinqBinding
             if (subEnv.Expr != null)
             {
                 val = model.Eval(subEnv.Expr);
+
             }
 
-            switch (Type.GetTypeCode(parameterType))
+            if (val != null && Type.GetTypeCode(parameterType) != TypeCode.Object &&
+                val.ASTKind == Z3_ast_kind.Z3_APP_AST)
             {
-                case TypeCode.String:
-                    value = val.String;
-                    break;
-                case TypeCode.Int16:
-                case TypeCode.Int32:
-                    value = ((IntNum)val).Int;
-                    break;
-                case TypeCode.Int64:
-                    value = ((IntNum)val).Int64;
-                    break;
-                case TypeCode.DateTime:
-                    value = DateTime.FromFileTime(((IntNum)val).Int64);
-                    break;
-                case TypeCode.Boolean:
-                    value = val.IsTrue;
-                    break;
-                case TypeCode.Single:
-                    value = Double.Parse(((RatNum)val).ToDecimalString(32), CultureInfo.InvariantCulture);
-                    break;
-                case TypeCode.Decimal:
-                    value = Decimal.Parse(((RatNum)val).ToDecimalString(128), CultureInfo.InvariantCulture);
-                    break;
-                case TypeCode.Double:
-                    value = Double.Parse(((RatNum)val).ToDecimalString(64), CultureInfo.InvariantCulture);
-                    break;
-                case TypeCode.Object:
-                    if (parameterType.IsArray || (parameterType.IsGenericType && typeof(ICollection).IsAssignableFrom(parameterType.GetGenericTypeDefinition())))
-                    {
-                        Type eltType;
-                        if (parameterType.IsArray)
+                //value = Convert.ChangeType(null, parameterType);
+                value = null;
+            }
+            else
+            {
+                switch (Type.GetTypeCode(parameterType))
+                {
+                    case TypeCode.String:
+                        value = val.String;
+                        break;
+                    case TypeCode.Int16:
+                    case TypeCode.Int32:
+                        value = ((IntNum)val).Int;
+                        break;
+                    case TypeCode.Int64:
+                        value = ((IntNum)val).Int64;
+                        break;
+                    case TypeCode.DateTime:
+                        value = DateTime.FromFileTime(((IntNum)val).Int64);
+                        break;
+                    case TypeCode.Boolean:
+                        value = val.IsTrue;
+                        break;
+                    case TypeCode.Single:
+                        value = double.Parse(((RatNum)val).ToDecimalString(32), CultureInfo.InvariantCulture);
+                        break;
+                    case TypeCode.Decimal:
+                        value = decimal.Parse(((RatNum)val).ToDecimalString(128), CultureInfo.InvariantCulture);
+                        break;
+                    case TypeCode.Double:
+                        value = double.Parse(((RatNum)val).ToDecimalString(64), CultureInfo.InvariantCulture);
+                        break;
+                    case TypeCode.Object:
+                        if (parameterType.IsArray || (parameterType.IsGenericType && typeof(ICollection).IsAssignableFrom(parameterType.GetGenericTypeDefinition())))
                         {
-                            eltType = parameterType.GetElementType();
-                        }
-                        else
-                        {
-                            eltType = parameterType.GetGenericArguments()[0];
-                        }
-                        if (eltType == null)
-                        {
-                            throw new NotSupportedException("Unsupported untyped array parameter type for " + parameter.Name + ".");
-                        }
-
-                        var results = new ArrayList();
-
-                        var arrVal = subEnv.Expr as ArrayExpr;
-                        var multiEnv = subEnv as MultipleEnvironment;
-                        var keyType = typeof(int);
-
-
-                        //todo: deal with length in a more robust way
-                        var existingCollection = new ArrayList((ICollection) parameter.GetValue(destinationObject, null));
-                        var length = existingCollection.Count;
-                        if (multiEnv != null)
-                        {
-                            var maxBound = multiEnv.SubEnvironments.Keys.Max();
-                            keyType = maxBound.GetType();
-                            int intMaxBound = Convert.ToInt32(maxBound);
-                            length = Math.Max(length, intMaxBound + 1);
-                        }
-                        for (int i = 0; i < length; i++)
-                        {
-                            Expr numValExpr = null;
-                            Environment subSubEnv = null;
-                            if (arrVal != null)
+                            Type eltType;
+                            if (parameterType.IsArray)
                             {
-                                // we deal with an array
-                                numValExpr = model.Eval(context.MkSelect(arrVal, context.MkInt(i)));
+                                eltType = parameterType.GetElementType();
                             }
                             else
                             {
-                                // we deal with a constant based collection
-                                
-                                var key = TypeDescriptor.GetConverter(keyType).ConvertFrom(i);
-                                if (multiEnv.SubEnvironments.TryGetValue(key, out subSubEnv))
-                                {
-                                    numValExpr = subSubEnv.Expr;
-                                }
+                                eltType = parameterType.GetGenericArguments()[0];
                             }
-
-                            //object numVal = null;
-                            object numVal = existingCollection[i];
-
-
-                            switch (Type.GetTypeCode(eltType))
+                            if (eltType == null)
                             {
-                                case TypeCode.String:
-                                    numVal = numValExpr.String;
-                                    break;
-                                case TypeCode.Int16:
-                                case TypeCode.Int32:
-                                    numVal = ((IntNum)numValExpr).Int;
-                                    break;
-                                case TypeCode.Int64:
-                                    numVal = ((IntNum)numValExpr).Int64;
-                                    break;
-                                case TypeCode.DateTime:
-                                    numVal = DateTime.FromFileTime(((IntNum)numValExpr).Int64);
-                                    break;
-                                case TypeCode.Boolean:
-                                    numVal = numValExpr.IsTrue;
-                                    break;
-                                case TypeCode.Single:
-                                    numVal = Double.Parse(((RatNum)numValExpr).ToDecimalString(32),
-                                        CultureInfo.InvariantCulture);
-                                    break;
-                                case TypeCode.Decimal:
-                                    numVal = Decimal.Parse(((RatNum)numValExpr).ToDecimalString(128),
-                                        CultureInfo.InvariantCulture);
-                                    break;
-                                case TypeCode.Double:
-                                    numVal = Double.Parse(((RatNum)numValExpr).ToDecimalString(64),
-                                        CultureInfo.InvariantCulture);
-                                    break;
-                                case TypeCode.Object:
-                                    if (subSubEnv != null)
-                                    {
-                                        numVal = GetSolution(eltType, context, model, subSubEnv);
-                                    }
-                                    break;
-                                default:
-                                    throw new NotSupportedException(
-                                        $"Unsupported array parameter type for {parameter.Name} and array element type {eltType.Name}.");
+                                throw new NotSupportedException("Unsupported untyped array parameter type for " + parameter.Name + ".");
                             }
 
-                            results.Add(numVal);
-                        }
+                            var results = new ArrayList();
 
-                        if (parameterType.IsArray)
-                        {
-                            value = results.ToArray(eltType);
+                            var arrVal = subEnv.Expr as ArrayExpr;
+                            var multiEnv = subEnv as MultipleEnvironment;
+
+                            //todo: deal with keys and length in a more robust way
+                            var keyType = typeof(int);
+                            
+                            var existingMember = parameter.GetValue(destinationObject, null);
+                            ArrayList existingCollection = null;
+                            int length = 0;
+                            if (existingMember != null)
+                            {
+                                existingCollection = new ArrayList((ICollection)existingMember);
+                                length = existingCollection.Count;
+                            }
+
+                            if (multiEnv != null && multiEnv.SubEnvironments.Keys.Count>0)
+                            {
+                                var maxBound = multiEnv.SubEnvironments.Keys.Max();
+                                keyType = maxBound.GetType();
+                                int intMaxBound = Convert.ToInt32(maxBound);
+                                length = Math.Max(length, intMaxBound + 1);
+                            }
+                            for (int i = 0; i < length; i++)
+                            {
+                                Expr numValExpr = null;
+                                Environment subSubEnv = null;
+                                if (arrVal != null)
+                                {
+                                    // we deal with an array
+                                    numValExpr = model.Eval(context.MkSelect(arrVal, context.MkInt(i)));
+                                }
+                                else
+                                {
+                                    // we deal with a constant based collection
+                                    object key = i;
+                                    if (key.GetType() != keyType)
+                                    {
+                                        key = TypeDescriptor.GetConverter(keyType).ConvertFrom(key);
+                                    }
+                                    if (multiEnv.SubEnvironments.TryGetValue(key, out subSubEnv))
+                                    {
+                                        if (subSubEnv.Expr != null)
+                                        {
+                                            numValExpr = model.Eval(subSubEnv.Expr);
+                                        }
+                                    }
+                                }
+
+
+                                object numVal = null;
+
+                                if (existingCollection != null && existingCollection.Count > i)
+                                {
+                                    numVal = existingCollection[i];
+                                }
+
+
+                                if ((subSubEnv!=null && Type.GetTypeCode(eltType) == TypeCode.Object)
+									||(numValExpr != null && numValExpr.ASTKind != Z3_ast_kind.Z3_APP_AST))
+                                {
+                                    switch (Type.GetTypeCode(eltType))
+                                    {
+                                        case TypeCode.String:
+                                            numVal = numValExpr.String;
+                                            break;
+                                        case TypeCode.Int16:
+                                        case TypeCode.Int32:
+                                            numVal = ((IntNum)numValExpr).Int;
+                                            break;
+                                        case TypeCode.Int64:
+                                            numVal = ((IntNum)numValExpr).Int64;
+                                            break;
+                                        case TypeCode.DateTime:
+                                            numVal = DateTime.FromFileTime(((IntNum)numValExpr).Int64);
+                                            break;
+                                        case TypeCode.Boolean:
+                                            numVal = numValExpr.IsTrue;
+                                            break;
+                                        case TypeCode.Single:
+                                            numVal = Double.Parse(((RatNum)numValExpr).ToDecimalString(32),
+                                                CultureInfo.InvariantCulture);
+                                            break;
+                                        case TypeCode.Decimal:
+                                            numVal = Decimal.Parse(((RatNum)numValExpr).ToDecimalString(128),
+                                                CultureInfo.InvariantCulture);
+                                            break;
+                                        case TypeCode.Double:
+                                            numVal = Double.Parse(((RatNum)numValExpr).ToDecimalString(64),
+                                                CultureInfo.InvariantCulture);
+                                            break;
+                                        case TypeCode.Object:
+                                            if (subSubEnv != null)
+                                            {
+                                                numVal = GetSolution(eltType, context, model, subSubEnv);
+                                            }
+                                            break;
+                                        default:
+                                            throw new NotSupportedException(
+                                                $"Unsupported array parameter type for {parameter.Name} and array element type {eltType.Name}.");
+                                    }
+
+                                }
+
+                                results.Add(numVal);
+                            }
+
+                            value = parameterType.IsArray ? results.ToArray(eltType) : Activator.CreateInstance(parameterType, results.ToArray(eltType));
                         }
                         else
                         {
-                            value = Activator.CreateInstance(parameterType, results.ToArray(eltType));
+                            value = GetSolution(parameterType, context, model, subEnv);
                         }
-                    }
-                    else
-                    {
-                        value = GetSolution(parameterType, context, model, subEnv);
-                    }
-                    break;
-                default:
-                    throw new NotSupportedException("Unsupported parameter type for " + parameter.Name + ".");
+                        break;
+                    default:
+                        throw new NotSupportedException("Unsupported parameter type for " + parameter.Name + ".");
+                }
             }
+
+
 
             //
             // If there was a type mapping, we need to convert back to the original type.
@@ -799,11 +843,11 @@ namespace Z3.LinqBinding
                 case TypeCode.Single:
                 case TypeCode.Double:
                 case TypeCode.Decimal:
-                    return context.MkReal(val.ToString());
+                    return context.MkReal(Convert.ToString(val,CultureInfo.InvariantCulture));
                 case TypeCode.DateTime:
                     return context.MkInt(((DateTime)val).ToFileTimeUtc());
                 case TypeCode.String:
-                    return context.MkString(val.ToString());
+                    return context.MkString(Convert.ToString(val, CultureInfo.InvariantCulture));
                 default:
                     throw new NotSupportedException($"Unsupported constant {val}");
 
@@ -837,57 +881,62 @@ namespace Z3.LinqBinding
         /// <param name="environment">Environment with bindings of theorem variables to Z3 handles.</param>
         /// <param name="member">Member expression.</param>
         /// <param name="param">Parameter used to express the constraint on.</param>
+        /// <param name="childHierarchy"></param>
         /// <returns>Z3 expression handle.</returns>
-        private Expr VisitMember(Context context, Environment environment, MemberExpression member, ParameterExpression param, IEnumerable<Expression> indices = null, List<MemberExpression> childHierarchy = null)
+        private Expr VisitMember(Context context, Environment environment, MemberExpression member, ParameterExpression param, List<Expression> childHierarchy = null)
         {
             //
             // E.g. Symbols l = ...;
             //      theorem.Where(s => l.X1)
             //                         ^^
             //
-            var hierarchy = new List<MemberExpression>();
-            var mExp = member;
-            hierarchy.Add(mExp);
-            while (mExp.Expression is MemberExpression parent)
+
+            if (childHierarchy == null)
             {
-                mExp = parent;
-                hierarchy.Add(parent);
+                childHierarchy = new List<Expression>();
             }
-            hierarchy.Reverse();
-
-            var topMember = hierarchy.First();
-
-
-            if (topMember.Expression != param)
+            childHierarchy.Add(member);
+            switch (member.Expression.NodeType)
             {
-
-                switch (topMember.Expression.NodeType)
-                {
-                    case ExpressionType.ArrayIndex:
-                    case ExpressionType.Index:
-                        var indexedVisit = VisitCollectionAccess(context, environment, topMember.Expression, param, hierarchy);
-                        break;
-                    case ExpressionType.Constant:
-                        // We only ever get here if SimplifyLambda is set to false, otherwise partial evaluation does it earlier
-                        var cExpression = (ConstantExpression)topMember.Expression;
-                        var target = cExpression.Value;
-                        var hierarchyIdx = 0;
-                        object val = target;
-                        while (hierarchyIdx < hierarchy.Count)
-                        {
-                            val = EvalMember(hierarchy[hierarchyIdx].Member, val);
-                            hierarchyIdx++;
-                        }
-                        if (val != null)
-                        {
-                            return VisitConstantValue(context, val);
-                        }
-                        throw new NotSupportedException($"Could not reduce expression {topMember.Expression}");
-                    default:
-                        throw new NotSupportedException($"Could not reduce expression {topMember.Expression}");
-                }
-
-
+                case ExpressionType.Parameter:
+                    if (member.Expression != param)
+                    {
+                        throw new NotSupportedException($"Could not reduce expression {member}");
+                    }
+                    break;
+                case ExpressionType.MemberAccess:
+                    return VisitMember(context, environment, (MemberExpression)member.Expression, param, childHierarchy);
+                case ExpressionType.ArrayIndex:
+                case ExpressionType.Index:
+                    return VisitCollectionAccess(context, environment, member.Expression, param, childHierarchy);
+                case ExpressionType.Constant:
+                    // We only ever get here if SimplifyLambda is set to false, otherwise partial evaluation does it earlier
+                    var cExpression = (ConstantExpression)member.Expression;
+                    var target = cExpression.Value;
+                    for (int i = childHierarchy.Count - 1; i >= 0; i--)
+                    {
+                        target = EvalMember(((MemberExpression)childHierarchy[i]).Member, target);
+                    }
+                    if (target != null)
+                    {
+                        return VisitConstantValue(context, target);
+                    }
+                    throw new NotSupportedException($"Could not reduce expression {member}");
+                case ExpressionType.Call:
+                    var call = (MethodCallExpression)member.Expression;
+                    if (call.Method.Name.StartsWith("get_"))
+                    {
+                        // Assuming it's an indexed property
+                        string prop = call.Method.Name.Substring(4);
+                        var propInfo = call.Method.DeclaringType.GetProperty(prop);
+                        var callTarget = call.Object;
+                        var args = call.Arguments;
+                        var indexer = Expression.MakeIndex(callTarget, propInfo, args);
+                        return VisitCollectionAccess(context, environment, indexer, param, childHierarchy);
+                    }
+                    throw new NotSupportedException($"Could not reduce expression {member}");
+                default:
+                    throw new NotSupportedException($"Could not reduce expression {member}");
             }
 
             //
@@ -896,49 +945,72 @@ namespace Z3.LinqBinding
             // bindings table.
             //
 
-            PropertyInfo property = null;
+            //PropertyInfo property = null;
+            PropertyInfo childProperty = null;
             Environment subEnv = environment;
-            foreach (var memberExpression in hierarchy)
+            Environment subSubEnv = null;
+            Expression indexExp;
+            Object index = null;
+
+            for (int i = childHierarchy.Count - 1; i >= 0; i--)
             {
-                if ((property = memberExpression.Member as PropertyInfo) == null
-                    || !subEnv.Properties.TryGetValue(property, out subEnv))
-                    throw new NotSupportedException($"Unknown parameter encountered with expression {member.Expression} and sub member {memberExpression.Member.Name}");
+
+                var childExp = childHierarchy[i];
+                switch (childExp.NodeType)
+                {
+                    case ExpressionType.MemberAccess:
+
+                        if ((childProperty = ((MemberExpression)childExp).Member as PropertyInfo) != null
+                            && subEnv.Properties.TryGetValue(childProperty, out subSubEnv))
+                        {
+                            subEnv = subSubEnv;
+                        }
+                        else
+                        {
+                            // this is an index
+                            indexExp = PartialEvaluator.PartialEval(childExp, ExpressionInterpreter.Instance);
+                            if (indexExp.NodeType != ExpressionType.Constant)
+                            {
+                                throw new NotSupportedException($"Could not reduce expression {indexExp}");
+                            }
+                            index = ExpressionInterpreter.Instance.Interpret(indexExp);
+
+                        }
+                        break;
+                    default:
+                        // this is an index
+                        indexExp = PartialEvaluator.PartialEval(childExp, ExpressionInterpreter.Instance);
+                        if (indexExp.NodeType != ExpressionType.Constant)
+                        {
+                            throw new NotSupportedException($"Could not reduce expression {indexExp}");
+                        }
+                        index = ExpressionInterpreter.Instance.Interpret(indexExp);
+
+                        break;
+                }
+
+                if (index != null)
+                {
+                    if (subEnv is MultipleEnvironment multiEnv)
+                    {
+                        if (!multiEnv.SubEnvironments.TryGetValue(index, out subSubEnv))
+                        {
+                            var newPrefix = $"{multiEnv.Prefix}_{index}";
+                            subSubEnv = GetEnvironment(context, multiEnv.ElementType, newPrefix, false);
+                            multiEnv.SubEnvironments[index] = subSubEnv;
+                        }
+                        subEnv = subSubEnv;
+                        index = null;
+                    }
+                }
+
+                if (subEnv.Expr != null)
+                {
+                    return subEnv.Expr;
+                }
             }
 
-            if (subEnv.Expr != null)
-            {
-                return subEnv.Expr;
-            }
-            // this is a collection mapped to instances
-            var multiEnv = (MultipleEnvironment)subEnv;
-            var evaluatedIndices = indices.Select(argumentExpression =>
-                ExpressionInterpreter.Instance.Interpret(argumentExpression));
-            // We only support 1 index for now
-            var index = evaluatedIndices.First();
-
-            if (!multiEnv.SubEnvironments.TryGetValue(index, out var indexedEnvironment))
-            {
-                var newPrefix = $"{multiEnv.Prefix}_{index}";
-                indexedEnvironment = GetEnvironment(context, property.PropertyType, newPrefix, false);
-            }
-
-            if (indexedEnvironment.Expr != null)
-            {
-                return indexedEnvironment.Expr;
-            }
-            // there is a child hierarchy to account for
-            subEnv = indexedEnvironment;
-            foreach (var memberExpression in childHierarchy)
-            {
-                if ((property = memberExpression.Member as PropertyInfo) == null
-                    || !subEnv.Properties.TryGetValue(property, out subEnv))
-                    throw new NotSupportedException($"Unknown parameter encountered with expression {member.Expression} and sub member {property.Name}");
-            }
-            if (subEnv.Expr == null)
-            {
-                throw new NotSupportedException($"Empty sub members encountered with expression {member.Expression}");
-            }
-            return subEnv.Expr;
+            throw new NotSupportedException($"Could not reduce expression {member}");
         }
 
 
@@ -975,7 +1047,7 @@ namespace Z3.LinqBinding
 
 
         private Expr VisitCollectionAccess(Context context, Environment environment, Expression expression,
-            ParameterExpression param, List<MemberExpression> childHierarchy = null)
+            ParameterExpression param, List<Expression> childHierarchy = null)
         {
             //var envType = environment.GetType();
             //if (envType.IsGenericType && )
@@ -990,7 +1062,7 @@ namespace Z3.LinqBinding
                 case ExpressionType.ArrayIndex:
                     var binaryExpression = ((BinaryExpression)expression);
                     targetExpression = binaryExpression.Left;
-                    argumentExpressions = new Expression[] { binaryExpression };
+                    argumentExpressions = new Expression[] { binaryExpression.Right };
                     break;
                 case ExpressionType.Index:
                     var indexExpression = ((IndexExpression)expression);
@@ -1004,7 +1076,14 @@ namespace Z3.LinqBinding
             Expr target;
             if (targetExpression.NodeType == ExpressionType.MemberAccess)
             {
-                target = VisitMember(context, environment, (MemberExpression)targetExpression, param, argumentExpressions, childHierarchy);
+                if (childHierarchy == null)
+                {
+                    childHierarchy = new List<Expression>();
+                }
+                childHierarchy.AddRange(argumentExpressions);
+                target = VisitMember(context, environment, (MemberExpression)targetExpression, param,
+                    childHierarchy);
+
                 if (!(target is ArrayExpr))
                 {
                     return target;
@@ -1036,12 +1115,12 @@ namespace Z3.LinqBinding
         }
 
 
-        private Expr VisitIndex(Context context, Environment environment, IndexExpression expression, ParameterExpression param, Func<Context, Expr, Expr[], Expr> ctor)
-        {
-            var args = expression.Arguments.Select(argExp => Visit(context, environment, argExp, param)).ToArray();
-            //return ctor(context, Visit(context, environment, expression.Object, param), Visit(context, environment, expression.Arguments[0], param));
-            return ctor(context, Visit(context, environment, expression.Object, param), args);
-        }
+        //private Expr VisitIndex(Context context, Environment environment, IndexExpression expression, ParameterExpression param, Func<Context, Expr, Expr[], Expr> ctor)
+        //{
+        //    var args = expression.Arguments.Select(argExp => Visit(context, environment, argExp, param)).ToArray();
+        //    //return ctor(context, Visit(context, environment, expression.Object, param), Visit(context, environment, expression.Arguments[0], param));
+        //    return ctor(context, Visit(context, environment, expression.Object, param), args);
+        //}
 
         /// <summary>
         /// Visitor method to translate a method call expression.
@@ -1097,22 +1176,19 @@ namespace Z3.LinqBinding
                 // array, hence we expect a NewArrayExpression.
                 //
                 var itemsExpression = call.Arguments[0];
-               
-                return VisitArrayMethod(context,environment,itemsExpression,param, (ctx, args)=> ctx.MkDistinct(args.Select(arg=>Visit(context, environment, arg, param)).ToArray()));
+
+                return VisitArrayMethod(context, environment, itemsExpression, param, (ctx, args) => ctx.MkDistinct(args.Select(arg => Visit(context, environment, arg, param)).ToArray()));
             }
 
-            if (method.IsGenericMethod
-                && method.GetGenericMethodDefinition() == typeof(Enumerable).GetMethods().First(m =>
-                    m.Name == nameof(Enumerable.Sum)
-                    && m.GetParameters().Length == 1))
+            if (method.DeclaringType == typeof(Enumerable) && method.Name == nameof(Enumerable.Sum) && method.GetParameters().Length == 1)
             {
                 var itemsExpression = call.Arguments[0];
 
-                return VisitArrayMethod(context, environment, itemsExpression, param, (ctx, args) => 
-                    Visit(context, environment, Expression.Add(args[0], args.Length>2? Expression.Call(method, Expression.NewArrayInit(typeof(Expression), args.Skip(1).ToArray())):args[1]),param));
+                return VisitArrayMethod(context, environment, itemsExpression, param, (ctx, args) =>
+                    Visit(context, environment, Expression.Add(args[0], args.Length > 2 ? Expression.Call(method, Expression.NewArrayInit(args[0].Type, args.Skip(1).ToArray())) : args[1]), param));
             }
 
-                if (method.Name.StartsWith("get_"))
+            if (method.Name.StartsWith("get_"))
             {
                 // Assuming it's an indexed property
                 string prop = method.Name.Substring(4);
@@ -1147,7 +1223,7 @@ namespace Z3.LinqBinding
             if (arrExpressions == null)
             {
                 throw new NotSupportedException("unsuported Expression :" + itemsExpression.ToString());
-               
+
             }
 
 
@@ -1164,37 +1240,62 @@ namespace Z3.LinqBinding
                 var callerToArrayExp = mExp.Arguments[0];
                 if (callerToArrayExp is MethodCallExpression callerToArrayMethodExp)
                 {
-                    if (callerToArrayMethodExp.Method.IsGenericMethod 
-                        && callerToArrayMethodExp.Method.GetGenericMethodDefinition() == typeof(Enumerable).GetMethods().First(m => m.Name == nameof(Enumerable.Select) 
-                                                                                                                                && m.GetParameters().Length == 2))
-                    {
-                        var callerExpression = callerToArrayMethodExp.Arguments[0];
-                        ICollection caller;
-                        if (callerExpression is MethodCallExpression mSubExp)
-                        {
-                           var subExpressions = MethodCallToArray(mSubExp);
-                            caller = new ArrayList(subExpressions.SelectMany(subExpression => new ArrayList(((ICollection) ExpressionInterpreter.Instance.Interpret(subExpression))).ToArray()).ToArray());
-                        }
-                        else
-                        {
-                            caller = (ICollection)ExpressionInterpreter.Instance.Interpret(callerExpression);
-                        }
-                        
-                        //var arg = PartialEvaluator.PartialEval(call.Arguments[1], ExpressionInterpreter.Instance) as LambdaExpression;
-                        var arg = callerToArrayMethodExp.Arguments[1] as LambdaExpression;
-                        var subExps = new List<Expression>(caller.Count);
-                        foreach (var item in caller)
-                        {
-                            var substitutedExpression =
-                                ParameterSubstituter.SubstituteParameter(arg, Expression.Constant(item));
-                            var newlyFlattened = PartialEvaluator.PartialEval(substitutedExpression, ExpressionInterpreter.Instance);
-                            subExps.Add(newlyFlattened);
-                        }
-
-                        return subExps;
-                    }
+                    return MethodCallToArray(callerToArrayMethodExp);
+                }
+                else
+                {
+                    throw new NotSupportedException($"unsuported Expression {mExp}, ToArray is only supported after a select");
                 }
             }
+            if (mExp.Method.IsGenericMethod
+                       && mExp.Method.GetGenericMethodDefinition() == typeof(Enumerable).GetMethods().First(m => m.Name == nameof(Enumerable.Select)
+                                                                                                                               && m.GetParameters().Length == 2))
+            {
+                var callerExpression = mExp.Arguments[0];
+                var caller = new ArrayList();
+                if (callerExpression is MethodCallExpression mSubExp)
+                {
+                    var subExpressions = MethodCallToArray(mSubExp);
+                    foreach (var subExpression in subExpressions)
+                    {
+                        var interpreted = (IEnumerable)ExpressionInterpreter.Instance.Interpret(callerExpression);
+                        foreach (var item in interpreted)
+                        {
+                            caller.Add(item);
+                        }
+                    }
+                }
+                else
+                {
+                    var interpreted = (IEnumerable)ExpressionInterpreter.Instance.Interpret(callerExpression);
+                    foreach (var item in interpreted)
+                    {
+                        caller.Add(item);
+                    }
+                }
+
+                //var arg = PartialEvaluator.PartialEval(call.Arguments[1], ExpressionInterpreter.Instance) as LambdaExpression;
+                var arg = mExp.Arguments[1] as LambdaExpression;
+                var subExps = new List<Expression>(caller.Count);
+                foreach (var item in caller)
+                {
+                    var substitutedExpression =
+                        ParameterSubstituter.SubstituteParameter(arg, Expression.Constant(item));
+                    var newlyFlattened = PartialEvaluator.PartialEval(substitutedExpression, ExpressionInterpreter.Instance);
+                    if (newlyFlattened is MethodCallExpression subMethodCallExpression
+                        && typeof(IEnumerable).IsAssignableFrom(subMethodCallExpression.Method.ReturnType))
+                    {
+                        subExps.AddRange(MethodCallToArray(subMethodCallExpression));
+                    }
+                    else
+                    {
+                        subExps.Add(newlyFlattened);
+                    }
+                }
+
+                return subExps;
+            }
+
             throw new NotSupportedException("unsuported method call:" + mExp.Method.Name);
         }
 

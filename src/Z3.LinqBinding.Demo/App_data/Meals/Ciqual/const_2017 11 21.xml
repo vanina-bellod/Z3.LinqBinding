@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="windows-1252" ?>
+ï»¿<?xml version="1.0" encoding="Windows-1252" ?>
 <TABLE>
    <CONST>
       <const_code> 327 </const_code>
-      <const_nom_fr> Energie, Règlement UE N° 1169/2011 (kJ/100g) </const_nom_fr>
+      <const_nom_fr> Energie, RÃ¨glement UE NÂ° 1169/2011 (kJ/100g) </const_nom_fr>
       <const_nom_eng> Energy, Regulation EU No 1169/2011 (kJ/100g) </const_nom_eng>
    </CONST>
    <CONST>
       <const_code> 328 </const_code>
-      <const_nom_fr> Energie, Règlement UE N° 1169/2011 (kcal/100g) </const_nom_fr>
+      <const_nom_fr> Energie, RÃ¨glement UE NÂ° 1169/2011 (kcal/100g) </const_nom_fr>
       <const_nom_eng> Energy, Regulation EU No 1169/2011 (kcal/100g) </const_nom_eng>
    </CONST>
    <CONST>
@@ -42,7 +42,7 @@
    </CONST>
    <CONST>
       <const_code> 10120 </const_code>
-      <const_nom_fr> Magnésium (mg/100g) </const_nom_fr>
+      <const_nom_fr> MagnÃ©sium (mg/100g) </const_nom_fr>
       <const_nom_eng> Magnesium (mg/100g) </const_nom_eng>
    </CONST>
    <CONST>
@@ -67,7 +67,7 @@
    </CONST>
    <CONST>
       <const_code> 10251 </const_code>
-      <const_nom_fr> Manganèse (mg/100g) </const_nom_fr>
+      <const_nom_fr> ManganÃ¨se (mg/100g) </const_nom_fr>
       <const_nom_eng> Manganese (mg/100g) </const_nom_eng>
    </CONST>
    <CONST>
@@ -87,22 +87,22 @@
    </CONST>
    <CONST>
       <const_code> 10340 </const_code>
-      <const_nom_fr> Sélénium (µg/100g) </const_nom_fr>
-      <const_nom_eng> Selenium (µg/100g) </const_nom_eng>
+      <const_nom_fr> SÃ©lÃ©nium (Âµg/100g) </const_nom_fr>
+      <const_nom_eng> Selenium (Âµg/100g) </const_nom_eng>
    </CONST>
    <CONST>
       <const_code> 10530 </const_code>
-      <const_nom_fr> Iode (µg/100g) </const_nom_fr>
-      <const_nom_eng> Iodine (µg/100g) </const_nom_eng>
+      <const_nom_fr> Iode (Âµg/100g) </const_nom_fr>
+      <const_nom_eng> Iodine (Âµg/100g) </const_nom_eng>
    </CONST>
    <CONST>
       <const_code> 25000 </const_code>
-      <const_nom_fr> Protéines (g/100g) </const_nom_fr>
+      <const_nom_fr> ProtÃ©ines (g/100g) </const_nom_fr>
       <const_nom_eng> Protein (g/100g) </const_nom_eng>
    </CONST>
    <CONST>
       <const_code> 25003 </const_code>
-      <const_nom_fr> Protéines brutes, N x 6.25 (g/100g) </const_nom_fr>
+      <const_nom_fr> ProtÃ©ines brutes, N x 6.25 (g/100g) </const_nom_fr>
       <const_nom_eng> Protein, crude, N x 6.25 (g/100g) </const_nom_eng>
    </CONST>
    <CONST>
@@ -137,17 +137,17 @@
    </CONST>
    <CONST>
       <const_code> 40302 </const_code>
-      <const_nom_fr> AG saturés (g/100g) </const_nom_fr>
+      <const_nom_fr> AG saturÃ©s (g/100g) </const_nom_fr>
       <const_nom_eng> FA saturated (g/100g) </const_nom_eng>
    </CONST>
    <CONST>
       <const_code> 40303 </const_code>
-      <const_nom_fr> AG monoinsaturés (g/100g) </const_nom_fr>
+      <const_nom_fr> AG monoinsaturÃ©s (g/100g) </const_nom_fr>
       <const_nom_eng> FA mono (g/100g) </const_nom_eng>
    </CONST>
    <CONST>
       <const_code> 40304 </const_code>
-      <const_nom_fr> AG polyinsaturés (g/100g) </const_nom_fr>
+      <const_nom_fr> AG polyinsaturÃ©s (g/100g) </const_nom_fr>
       <const_nom_eng> FA poly (g/100g) </const_nom_eng>
    </CONST>
    <CONST>
@@ -157,7 +157,7 @@
    </CONST>
    <CONST>
       <const_code> 40600 </const_code>
-      <const_nom_fr> AG 6:0, caproïque (g/100g) </const_nom_fr>
+      <const_nom_fr> AG 6:0, caproÃ¯que (g/100g) </const_nom_fr>
       <const_nom_eng> FA 6:0 (g/100g) </const_nom_eng>
    </CONST>
    <CONST>
@@ -187,22 +187,22 @@
    </CONST>
    <CONST>
       <const_code> 41800 </const_code>
-      <const_nom_fr> AG 18:0, stéarique (g/100g) </const_nom_fr>
+      <const_nom_fr> AG 18:0, stÃ©arique (g/100g) </const_nom_fr>
       <const_nom_eng> FA 18:0 (g/100g) </const_nom_eng>
    </CONST>
    <CONST>
       <const_code> 41819 </const_code>
-      <const_nom_fr> AG 18:1 9c (n-9), oléique (g/100g) </const_nom_fr>
+      <const_nom_fr> AG 18:1 9c (n-9), olÃ©ique (g/100g) </const_nom_fr>
       <const_nom_eng> FA 18:1 n-9 cis (g/100g) </const_nom_eng>
    </CONST>
    <CONST>
       <const_code> 41826 </const_code>
-      <const_nom_fr> AG 18:2 9c,12c (n-6), linoléique (g/100g) </const_nom_fr>
+      <const_nom_fr> AG 18:2 9c,12c (n-6), linolÃ©ique (g/100g) </const_nom_fr>
       <const_nom_eng> FA 18:2 9c,12c (n-6) (g/100g) </const_nom_eng>
    </CONST>
    <CONST>
       <const_code> 41833 </const_code>
-      <const_nom_fr> AG 18:3 c9,c12,c15 (n-3), alpha-linolénique (g/100g) </const_nom_fr>
+      <const_nom_fr> AG 18:3 c9,c12,c15 (n-3), alpha-linolÃ©nique (g/100g) </const_nom_fr>
       <const_nom_eng> FA 18:3 c9,c12,c15 (n-3) (g/100g) </const_nom_eng>
    </CONST>
    <CONST>
@@ -222,18 +222,18 @@
    </CONST>
    <CONST>
       <const_code> 51200 </const_code>
-      <const_nom_fr> Rétinol (µg/100g) </const_nom_fr>
-      <const_nom_eng> Retinol (µg/100g) </const_nom_eng>
+      <const_nom_fr> RÃ©tinol (Âµg/100g) </const_nom_fr>
+      <const_nom_eng> Retinol (Âµg/100g) </const_nom_eng>
    </CONST>
    <CONST>
       <const_code> 51330 </const_code>
-      <const_nom_fr> Beta-Carotène (µg/100g) </const_nom_fr>
-      <const_nom_eng> Beta-carotene (µg/100g) </const_nom_eng>
+      <const_nom_fr> Beta-CarotÃ¨ne (Âµg/100g) </const_nom_fr>
+      <const_nom_eng> Beta-carotene (Âµg/100g) </const_nom_eng>
    </CONST>
    <CONST>
       <const_code> 52100 </const_code>
-      <const_nom_fr> Vitamine D (µg/100g) </const_nom_fr>
-      <const_nom_eng> Vitamin D (µg/100g) </const_nom_eng>
+      <const_nom_fr> Vitamine D (Âµg/100g) </const_nom_fr>
+      <const_nom_eng> Vitamin D (Âµg/100g) </const_nom_eng>
    </CONST>
    <CONST>
       <const_code> 53100 </const_code>
@@ -242,13 +242,13 @@
    </CONST>
    <CONST>
       <const_code> 54101 </const_code>
-      <const_nom_fr> Vitamine K1 (µg/100g) </const_nom_fr>
-      <const_nom_eng> Vitamin K1 (µg/100g) </const_nom_eng>
+      <const_nom_fr> Vitamine K1 (Âµg/100g) </const_nom_fr>
+      <const_nom_eng> Vitamin K1 (Âµg/100g) </const_nom_eng>
    </CONST>
    <CONST>
       <const_code> 54104 </const_code>
-      <const_nom_fr> Vitamine K2 (µg/100g) </const_nom_fr>
-      <const_nom_eng> Vitamin K2 (µg/100g) </const_nom_eng>
+      <const_nom_fr> Vitamine K2 (Âµg/100g) </const_nom_fr>
+      <const_nom_eng> Vitamin K2 (Âµg/100g) </const_nom_eng>
    </CONST>
    <CONST>
       <const_code> 55100 </const_code>
@@ -272,7 +272,7 @@
    </CONST>
    <CONST>
       <const_code> 56400 </const_code>
-      <const_nom_fr> Vitamine B5 ou Acide pantothénique (mg/100g) </const_nom_fr>
+      <const_nom_fr> Vitamine B5 ou Acide pantothÃ©nique (mg/100g) </const_nom_fr>
       <const_nom_eng> Vitamin B5 or Pantothenic acid (mg/100g) </const_nom_eng>
    </CONST>
    <CONST>
@@ -282,13 +282,13 @@
    </CONST>
    <CONST>
       <const_code> 56600 </const_code>
-      <const_nom_fr> Vitamine B12 (µg/100g) </const_nom_fr>
-      <const_nom_eng> Vitamin B12 (µg/100g) </const_nom_eng>
+      <const_nom_fr> Vitamine B12 (Âµg/100g) </const_nom_fr>
+      <const_nom_eng> Vitamin B12 (Âµg/100g) </const_nom_eng>
    </CONST>
    <CONST>
       <const_code> 56700 </const_code>
-      <const_nom_fr> Vitamine B9 ou Folates totaux (µg/100g) </const_nom_fr>
-      <const_nom_eng> Vitamin B9 or Folate (µg/100g) </const_nom_eng>
+      <const_nom_fr> Vitamine B9 ou Folates totaux (Âµg/100g) </const_nom_fr>
+      <const_nom_eng> Vitamin B9 or Folate (Âµg/100g) </const_nom_eng>
    </CONST>
    <CONST>
       <const_code> 60000 </const_code>
@@ -302,7 +302,7 @@
    </CONST>
    <CONST>
       <const_code> 75100 </const_code>
-      <const_nom_fr> Cholestérol (mg/100g) </const_nom_fr>
+      <const_nom_fr> CholestÃ©rol (mg/100g) </const_nom_fr>
       <const_nom_eng> Cholesterol (mg/100g) </const_nom_eng>
    </CONST>
 </TABLE>
