@@ -16,7 +16,7 @@ namespace Z3.LinqBinding.Demo
 	    public Dietetique Dietetique;
 
         public int NombreMenus { get; set; } = 7;
-        public int NombrePlatsParMenu { get; set; } = 3;
+        public int NombrePlatsParMenu { get; set; } = 5;
 
         public List<Menu> Menus { get; set; }
 
@@ -131,7 +131,7 @@ namespace Z3.LinqBinding.Demo
 					//	Teneur = c
 					//}).ToList()
 				}).ToList(),
-				Compositions = m.Compositions
+				//Compositions = m.Compositions
 			}).ToList();
         }
 

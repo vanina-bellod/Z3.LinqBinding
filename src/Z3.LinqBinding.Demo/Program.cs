@@ -73,25 +73,32 @@ namespace Z3.LinqBinding.Demo
 			monPatient.AddRestriction(dietetique, new RestrictionReadable()
 			{
 				Constituant = " Sel chlorure de sodium (g/100g) ",
-				Max = 120,
+				Max = 150,
 			});
-	        patients.Add(monPatient);
-	        monPatient = new Patient();
-	        monPatient.AddRestriction(dietetique, new RestrictionReadable()
-	        {
-		        Constituant = " Energie, Règlement UE N° 1169/2011 (kJ/100g) ",
-		        Max = 12000,
-	        });
-	        patients.Add(monPatient);
-	        monPatient = new Patient();
-	        monPatient.AddRestriction(dietetique, new RestrictionReadable()
-	        {
-		        Constituant = " Cholestérol (mg/100g) ",
-		        Max = 300,
-	        });
-	        patients.Add(monPatient);
+			patients.Add(monPatient);
+			monPatient = new Patient();
+			monPatient.AddRestriction(dietetique, new RestrictionReadable()
+			{
+				Constituant = " Energie, Règlement UE N° 1169/2011 (kJ/100g) ",
+				Max = 14000,
+			});
+			patients.Add(monPatient);
+			monPatient = new Patient();
+			monPatient.AddRestriction(dietetique, new RestrictionReadable()
+			{
+				Constituant = " Cholestérol (mg/100g) ",
+				Max = 400,
+			});
+			patients.Add(monPatient);
+			monPatient = new Patient();
+			monPatient.AddRestriction(dietetique, new RestrictionReadable()
+			{
+				Constituant = " Sucres (g/100g) ",
+				Max = 100,
+			});
+			patients.Add(monPatient);
 			using (var ctx = new Z3Context())
-            {
+			{
 	            ctx.Log = Console.Out;
 				var mealPlanner = new PlanificateurDeMenus(dietetique);
                 

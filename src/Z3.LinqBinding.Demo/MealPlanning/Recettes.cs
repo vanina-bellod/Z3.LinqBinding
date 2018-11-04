@@ -37,6 +37,14 @@ namespace Z3.LinqBinding.Demo
 				}
 			}
 
+	        foreach (var denree in toReturn.Denrees)
+	        {
+		        if (string.IsNullOrEmpty(denree.fields.libelle_denree))
+		        {
+			        denree.fields.libelle_denree = denree.fields.libelle_recette;
+		        }
+	        }
+
 			files = Directory.GetFiles(folderPath, "plats*");
 	        foreach (var fileName in files)
 	        {
