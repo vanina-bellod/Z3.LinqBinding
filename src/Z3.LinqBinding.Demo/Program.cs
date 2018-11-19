@@ -14,15 +14,15 @@ namespace Z3.LinqBinding.Demo
         {
 
 
-			//SimpleExamples();
+			SimpleExamples();
 
-			//TestSudoku();
+			TestSudoku();
 
-			//TestMissionariesAndCannibals();
+			TestMissionariesAndCannibals();
 
 			MealPlanning();
 
-			//AllSamplesInSameContext();
+			AllSamplesInSameContext();
 			Console.WriteLine("End Program");
             Console.Read();
 
