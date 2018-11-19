@@ -14,16 +14,16 @@ namespace Z3.LinqBinding.Demo
         {
 
 
-            //SimpleExamples();
+			//SimpleExamples();
 
-            //TestSudoku();
+			//TestSudoku();
 
-            //TestMissionariesAndCannibals();
+			//TestMissionariesAndCannibals();
 
-            MealPlanning();
+			MealPlanning();
 
-            //AllSamplesInSameContext();
-            Console.WriteLine("End Program");
+			//AllSamplesInSameContext();
+			Console.WriteLine("End Program");
             Console.Read();
 
 
@@ -136,8 +136,8 @@ namespace Z3.LinqBinding.Demo
             // Sudoku Extension Usage (Z3.LinqBinding.Sudoku)
             using (var ctx = new Z3Context())
             {
-                //ctx.Log = Console.Out;
-                var theorem = SudokuAsArray
+				ctx.Log = Console.Out;
+				var theorem = SudokuAsArray
                    .Parse("9.2..54.31...63.255.84.7.6..263.9..1.57.1.29..9.67.53.24.53.6..7.52..3.4.8..4195.") // Very easy
                    .CreateTheorem(ctx);
                 var result = theorem.Solve();
