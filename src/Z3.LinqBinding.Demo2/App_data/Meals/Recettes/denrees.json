@@ -1,0 +1,3851 @@
+[
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"f92338ed38631dc4892eaa975205bd2293f1a765",
+      "fields":{
+         "libelle_recette":"$$ DAUBE DE BOEUF BBC",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$VB040",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"da6dc9cc06e189d20da3a2a34524005e7041c01f",
+      "fields":{
+         "libelle_recette":"$$ PETITS POIS FRANCAISE BTE",
+         "libellelong_denree":"SUCRE POUDRE 1KG (6.71/6/",
+         "code_denree":"DEF014",
+         "code_recette":"$LB015",
+         "libelle_denree":"SUCRE SEMOULE 1KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"888bcedb739ed8ab099622104c16bed9641db34e",
+      "fields":{
+         "libelle_recette":"$$ SAUCE TOMATE",
+         "libellelong_denree":"TOMATES CONCASSEES  5/1",
+         "code_denree":"DLB021",
+         "code_recette":"$VC021",
+         "libelle_denree":"TOMATES CONCASSEES 5/1"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"4a445862c7013ea764058bc8a3a2e7639f5a9e99",
+      "fields":{
+         "libellelong_denree":"EMMENTHAL RAPE",
+         "lait":"X",
+         "code_denree":"DBF001",
+         "code_recette":"$LC095",
+         "libelle_denree":"EMMENTHAL RAPE/KG+",
+         "libelle_recette":"$$ GRATIN DE COURGETTES A LA TOMATE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"2c44738043e39906884b8ad5a716171b91cab19c",
+      "fields":{
+         "libelle_recette":"$$ P DE TERRE VAPEUR",
+         "libellelong_denree":"PDT GRENAILLE",
+         "code_denree":"DLV019",
+         "code_recette":"$LV003",
+         "libelle_denree":"PDT GRENAILLE 2K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"9603edb106b54a96efb3d777c74734e53a197ee8",
+      "fields":{
+         "libelle_recette":"$$ SAUTE VEAU MARENGO LR",
+         "libellelong_denree":"SEL GROS POCHE 1KG",
+         "code_denree":"DEC023",
+         "code_recette":"$VD011",
+         "libelle_denree":"SEL GROS POCHE 1KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"caf27b5086ef151d17be30a0b792b51754734d90",
+      "fields":{
+         "libelle_recette":"$$ SAL P DE TERRE (PARMENTIERE)",
+         "libellelong_denree":"ECHALOTTE CISELEE",
+         "code_denree":"DLC045",
+         "code_recette":"$ES066",
+         "libelle_denree":"ECHALOTTE CISELEE 1K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"b5fdc52a6a79d6f38d9159f4c3d5053750236e8d",
+      "fields":{
+         "libelle_recette":"$$ EPINARDS BECHAMEL",
+         "code_denree":"DEB058",
+         "code_recette":"$LC013",
+         "libelle_denree":"ROUX BLANC 10Kg"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"f575ec0b06486266e6d6ff296c707b12050a518e",
+      "fields":{
+         "libelle_recette":"$$ DAHL DE LENTILLES JAUNES BIO",
+         "libellelong_denree":"TOMATES CONCASSEES  5/1",
+         "code_denree":"DLB021",
+         "code_recette":"$LS061",
+         "libelle_denree":"TOMATES CONCASSEES 5/1"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"59550b4b5801b7960552e3e9405710d117cc69aa",
+      "fields":{
+         "libelle_recette":"$$ CUBES POIS POIVRONS",
+         "libellelong_denree":"CONCENTRE DE TOMATES  5/1",
+         "code_denree":"DEB009",
+         "code_recette":"$PE043",
+         "libelle_denree":"CONCENTRE DE TOMATES  5/1"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"1cb1dde4e30dc550f60c98f66997da5bd44fb187",
+      "fields":{
+         "libelle_recette":"$$ SAUMON FRAIS CITRON \u00e9l\u00e9m",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$PE059",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"8c93f87b2bd73100ee23fc4a80984b2f1b3596cc",
+      "fields":{
+         "libelle_recette":"$$ DAUBE DE BOEUF BBC",
+         "libellelong_denree":"CANDIE ROUGE VRAC",
+         "code_denree":"DAV025",
+         "code_recette":"$VB040",
+         "libelle_denree":"CANDIE ROUGE vinibag 10L"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"28f2ccc96274ac30c99aed4e371a1fe21aeeae16",
+      "fields":{
+         "libelle_recette":"$$ DAUBE DE BOEUF BBC",
+         "libellelong_denree":"SAUTE BOEUF 30g BLEU BLANC COEUR",
+         "code_denree":"DVB031",
+         "code_recette":"$VB040",
+         "libelle_denree":"BOURGUIGNON BOEUF 30g BBC"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"d6dd786f36907e8a15512084dc6f84a73a534370",
+      "fields":{
+         "celeri":"X",
+         "libellelong_denree":"CELERI  RAVE RAPE",
+         "code_recette":"$ES069",
+         "code_denree":"DLV012",
+         "libelle_denree":"CELERI  RAVE RAPE 5kg",
+         "libelle_recette":"$$ SAL D  HIVER (crudit\u00e9s/d\u00e9s pomme)"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"25866b5a2e259c4f8b19299ec9af2658de71d543",
+      "fields":{
+         "libelle_recette":"$$ PETITS POIS FRANCAISE BTE",
+         "libellelong_denree":"OIGNONS COUPES(1.54/2.5)",
+         "code_denree":"DLC022",
+         "code_recette":"$LB015",
+         "libelle_denree":"OIGNONS COUPES EN DES 2.5K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"b48d7e965494f08514426737a05b5738a92268b4",
+      "fields":{
+         "libelle_recette":"$$ CHOU FLEUR BECHAMEL",
+         "libellelong_denree":"CHOUX-FLEURS(1.9/2.5)",
+         "code_denree":"DLC002",
+         "code_recette":"$LC071",
+         "libelle_denree":"CHOUX-FLEURS/FRANCE 2.5k"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"da818dc4962589e2e409bd961d688f92555a225d",
+      "fields":{
+         "libelle_recette":"$$ BOULETTES SOJA SCE TOMATE",
+         "libellelong_denree":"SUCRE POUDRE 1KG (6.71/6/",
+         "code_denree":"DEF014",
+         "code_recette":"$SV008",
+         "libelle_denree":"SUCRE SEMOULE 1KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"7f0987f790d2268f6b7fa87fde480b184e3665e9",
+      "fields":{
+         "libelle_recette":"$$ DAUBE DE BOEUF BBC",
+         "libellelong_denree":"CAROTTES RONDELLES",
+         "code_denree":"DLC001",
+         "code_recette":"$VB040",
+         "libelle_denree":"CAROTTES RONDELLES"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"926c86ff2e3ada2535c2db72b6cc134ebb75642b",
+      "fields":{
+         "libelle_recette":"$$ SAUCE TOMATE",
+         "code_denree":"DEB058",
+         "code_recette":"$VC021",
+         "libelle_denree":"ROUX BLANC 10Kg"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"a458d6bfad6d283bb18cb4026d45a9d846676ae6",
+      "fields":{
+         "libelle_recette":"$$ SAUCE TOMATE",
+         "code_denree":"DEG024",
+         "code_recette":"$VC021",
+         "libelle_denree":"MELANGE HUILE COLZA OLIVE 5L"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"efaed5bc90c045fcdf6edc450fba0e067d7d761b",
+      "fields":{
+         "libelle_recette":"$$ EMINCE DINDE SCE SUPREME",
+         "libellelong_denree":"SEL GROS POCHE 1KG",
+         "code_denree":"DEC023",
+         "code_recette":"$VV109",
+         "libelle_denree":"SEL GROS POCHE 1KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"771af1465a1594251d0b7b48d5bcf53418c81783",
+      "fields":{
+         "libelle_recette":"CREME ANGLAISE 2L",
+         "lait":"X",
+         "ovoproduit":"X",
+         "code_recette":"DBD025"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"0bc5ae081607607bc6d05ed6a715431340e32a89",
+      "fields":{
+         "libelle_recette":"CROC TOU POMME",
+         "code_recette":"DFS001"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"0ac8b176b80e149074fb461d608368ea5d4491db",
+      "fields":{
+         "libelle_recette":"COOKIES PEPITES BIO",
+         "lait":"X",
+         "gluten":"X",
+         "code_recette":"DGS014",
+         "fruits_a_coque":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"f4b54f189b355326e04693d753cabb64e1f44dad",
+      "fields":{
+         "libelle_recette":"TOMATE CERISE ROUGE B 250G",
+         "code_recette":"DLF030"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"464074bcd1afacc84977102b79761da65f5fc824",
+      "fields":{
+         "libellelong_denree":"SARDINES HUILE VEGETALE 1/6",
+         "code_recette":"$EP002",
+         "code_denree":"DPC042",
+         "libelle_denree":"SARDINES HUILE 1/6",
+         "libelle_recette":"$$ SARDINES \u00e0 l huile/CITRON",
+         "poisson":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"0879da6b4a8683db020d87c8f864989b7749c061",
+      "fields":{
+         "libelle_recette":"$$ CAROTTES A L'ORANGE",
+         "code_denree":"DFV007",
+         "code_recette":"$ES022",
+         "libelle_denree":"ORANGE SEGMENTS 5 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"1565bb50fd0c39c0a8a8e63e4b9fa5f822b9c4b9",
+      "fields":{
+         "libellelong_denree":"MAYONNAISE / 5KG(5.47/5)",
+         "code_recette":"$ES024",
+         "code_denree":"DEG010",
+         "libelle_denree":"MAYONNAISE / 5KG",
+         "ovoproduit":"X",
+         "libelle_recette":"$$ SAL RUSSE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"4e7360c6397dbb6ce35a8a0fbabd855e5d69efa7",
+      "fields":{
+         "celeri":"X",
+         "libellelong_denree":"EX POTAGE LEG VERTS POTAGERE",
+         "lait":"X",
+         "code_recette":"$EV001",
+         "code_denree":"DEP006",
+         "libelle_denree":"VELOUTE DE LEGUMES VERTS",
+         "libelle_recette":"$$ POTAGE LEGUMES VERTS"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"d29fa84c5682d59470d903c4c9ccaa551f18340b",
+      "fields":{
+         "libelle_recette":"$$ HARICOTS VERTS   (BTE)",
+         "code_denree":"DEG025",
+         "code_recette":"$LB005",
+         "libelle_denree":"HUILE GOUT BEURRE 5L"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"a1f9e9f9797161cd593928fb663836c3d8d57ca8",
+      "fields":{
+         "libelle_recette":"$$ PETITS POIS FRANCAISE BTE",
+         "libellelong_denree":"CAROTTES RONDELLES",
+         "code_denree":"DLC001",
+         "code_recette":"$LB015",
+         "libelle_denree":"CAROTTES RONDELLES"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"91b83219566862a33aaffc32b0b35a9d4af433cf",
+      "fields":{
+         "libellelong_denree":"BEURRE  MOTTE 5 KG",
+         "lait":"X",
+         "code_denree":"DBB001",
+         "code_recette":"$LC008",
+         "libelle_denree":"BEURRE MOTTE 5 KGDBD",
+         "libelle_recette":"$$ CHOU FLEUR PERSILLE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"12357a955b2e54e8f766568a0fad079b0627e2ce",
+      "fields":{
+         "libellelong_denree":"LAIT ENTIER UHT 10L",
+         "lait":"X",
+         "code_denree":"DBL003",
+         "code_recette":"$LC071",
+         "libelle_denree":"LAIT ENTIER UHT 10L OUTRE",
+         "libelle_recette":"$$ CHOU FLEUR BECHAMEL"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"7f3e539408de76c85d31784fc0f566d085ad1334",
+      "fields":{
+         "libelle_recette":"$$ CHOU FLEUR BECHAMEL",
+         "code_denree":"DEB019",
+         "code_recette":"$LC071",
+         "libelle_denree":"MUSCADE K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"9a469626e34718bda92d73172e0564fe87caa471",
+      "fields":{
+         "libelle_recette":"$$ CHOU FLEUR BECHAMEL",
+         "libellelong_denree":"SEL GROS POCHE 1KG",
+         "code_denree":"DEC023",
+         "code_recette":"$LC071",
+         "libelle_denree":"SEL GROS POCHE 1KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"9ac482260375075c77a08d0abdc1afb59acad49d",
+      "fields":{
+         "libelle_recette":"$$ TORSADES HALLOWEEN",
+         "libellelong_denree":"SEL FIN POCHE 1 KG",
+         "code_denree":"DEC022",
+         "code_recette":"$LP050",
+         "libelle_denree":"SEL FIN POCHE 1 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"ffa2480cd5e538f78d3b2d48da0c77f9f25ef980",
+      "fields":{
+         "libelle_recette":"$$ TORSADES HALLOWEEN",
+         "code_denree":"DLV045",
+         "code_recette":"$LP050",
+         "libelle_denree":"BRUNOISE DE CAROTTE 5kg"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"36c184d3eefde9ca04b0f6fd253a7fa50a3cda18",
+      "fields":{
+         "libellelong_denree":"CREME FRAICHE 5LITRE (9.67/5L)",
+         "lait":"X",
+         "code_denree":"DBL006",
+         "code_recette":"$PE043",
+         "libelle_denree":"CREME FRAICHE 5LITRE",
+         "libelle_recette":"$$ CUBES POIS POIVRONS"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"412a69c70e06d749580169e8224a342235f2f377",
+      "fields":{
+         "libelle_recette":"$$ CUBES POIS POIVRONS",
+         "code_denree":"DEB058",
+         "code_recette":"$PE043",
+         "libelle_denree":"ROUX BLANC 10Kg"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"7b27168b93d2a1ae66d86d88b7d602e53c2a009c",
+      "fields":{
+         "libelle_recette":"$$ CUBES POIS POIVRONS",
+         "libellelong_denree":"MELANGE POIVRONS LANIERE (3.49/2.5)",
+         "code_denree":"DLC075",
+         "code_recette":"$PE043",
+         "libelle_denree":"MELANGE POIVRONS LANIERE 2.5K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"80918956c892cb5e284aee787329174c634eb405",
+      "fields":{
+         "libelle_recette":"$$ SAUMON FRAIS CITRON \u00e9l\u00e9m",
+         "libellelong_denree":"CITRONS  PETIT CALIBRE(5/55)",
+         "code_denree":"DFF007",
+         "code_recette":"$PE059",
+         "libelle_denree":"CITRONS PETIT CALIBRE(5/55)"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"dda57876cbdea0d1e9fbf7983ceb60d0c3f5b8f7",
+      "fields":{
+         "libelle_recette":"$$ DAUBE DE BOEUF BBC",
+         "libellelong_denree":"FOND DE VEAU BRUN",
+         "code_denree":"DEB088",
+         "code_recette":"$VB040",
+         "libelle_denree":"FOND DE VEAU BRUN"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"c7e3158ab0e6138f4c09eeca7794f385c033a4bc",
+      "fields":{
+         "libelle_recette":"$$ DAUBE DE BOEUF BBC",
+         "libellelong_denree":"THYM EMINCE 200 GR",
+         "code_denree":"DEC058",
+         "code_recette":"$VB040",
+         "libelle_denree":"THYM EMINCE 200 GR"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"6087f72a6ff8d6335257d92b1bd1b367505f88eb",
+      "fields":{
+         "libelle_recette":"$$ DAUBE DE BOEUF BBC",
+         "libellelong_denree":"AIL HACHE SURGELE",
+         "code_denree":"DLC033",
+         "code_recette":"$VB040",
+         "libelle_denree":"AIL HACHE SURGELE 1K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"448c0a974de532e909d7c4f878d30d79d68439e1",
+      "fields":{
+         "libelle_recette":"$$ RAVIOLIS LEGUMES BIO FRAIS",
+         "code_denree":"DEG024",
+         "code_recette":"$VC012",
+         "libelle_denree":"MELANGE HUILE COLZA OLIVE 5L"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"f7211d0e4b6958c3870532b0bd80d945c49ad5f6",
+      "fields":{
+         "libelle_recette":"$$ SAUCE TOMATE",
+         "code_denree":"DLB007",
+         "code_recette":"$VC021",
+         "libelle_denree":"TOMATE GARNITURE PIZZA 5/1"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"875d3c34a78f177b0bf853f45125c5560687d7d1",
+      "fields":{
+         "libelle_recette":"$$ POULET ROTI  FRAIS",
+         "libellelong_denree":"HAUT CUISSE POULET 160G FR",
+         "code_denree":"DVG002",
+         "code_recette":"$VV044",
+         "libelle_denree":"HAUT CUISSE POULET 160G FR"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"806c3a123ac97d39170569e59ef5c1e53f7f3e44",
+      "fields":{
+         "libelle_recette":"$$ EMINCE DINDE SCE SUPREME",
+         "libellelong_denree":"CHAMPIGNONS DE PARIS 5/1",
+         "code_denree":"DLB001",
+         "code_recette":"$VV109",
+         "libelle_denree":"CHAMPIGNONS DE PARIS  EMINCES 5/1"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"c73a0064cc68a6e9085f750613102a4094965aad",
+      "fields":{
+         "libelle_recette":"MAYONNAISE DOSETTE",
+         "moutarde":"X",
+         "code_recette":"DEG011",
+         "ovoproduit":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"0ba6ad8e3333db350bcc9c49629fc2a9f84c18fc",
+      "fields":{
+         "libelle_recette":"GAUFRE MOLLE",
+         "ovoproduit":"X",
+         "gluten":"X",
+         "code_recette":"DGG034",
+         "soja":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"98a73efd7bbf0fa63ff31008782b84827043ad5b",
+      "fields":{
+         "libelle_recette":"TOMATES 57/67",
+         "code_recette":"DLF001"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"d9e31eaa1d9078598d9d55bad88cfe472d34e3a1",
+      "fields":{
+         "libelle_recette":"SALADIERE SEMOUL/LEG/THON 160G",
+         "code_recette":"DLP002"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"6157234ed0d78615cf27ff3359bb4a0aafe30e18",
+      "fields":{
+         "libelle_recette":"$$ CAROTTES RAPEES(S/V)",
+         "libellelong_denree":"CAROTTES RAPEES",
+         "code_denree":"DLV011",
+         "code_recette":"$ES005",
+         "libelle_denree":"CAROTTES RAPEES"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"c4f0a6ff0097295e7304370ec2ce4218337798ed",
+      "fields":{
+         "libelle_recette":"$$ RADIS",
+         "libellelong_denree":"RADIS EQUEUTES 500G",
+         "code_denree":"DLV016",
+         "code_recette":"$ES023",
+         "libelle_denree":"RADIS EQUEUTES 500G"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"188afa2748b4a041387f909c1d0ba71aa76bea65",
+      "fields":{
+         "libelle_recette":"$$ SAL VERTE /EMMENTAL",
+         "libellelong_denree":"SALADE VERTE MELEE S/V 500 GR",
+         "code_denree":"DLV017",
+         "code_recette":"$ES046",
+         "libelle_denree":"SALADE VERTE MELEE S/V 500 GR"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"c6bcfd1af195558bcb46bb1e60c7189ea6865c50",
+      "fields":{
+         "libelle_recette":"$$ TABOULE (entr\u00e9e)",
+         "code_denree":"DLV105",
+         "code_recette":"$ES070",
+         "libelle_denree":"CONCOMBRE BRUNOISE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"714cc00b2924978ab24c14222c5a846971036986",
+      "fields":{
+         "libelle_recette":"$$ CAROTTE RONDELLES (BTE)",
+         "code_denree":"DLB032",
+         "code_recette":"$LB010",
+         "libelle_denree":"CAROTTES RONDELLES 5/1"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"b0daab4e9925383ef519bc436eb139f7181322c2",
+      "fields":{
+         "libelle_recette":"$$ PETITS POIS FRANCAISE BTE",
+         "libellelong_denree":"PETITS POIS 5/1 EXTRA FINS",
+         "code_denree":"DLB009",
+         "code_recette":"$LB015",
+         "libelle_denree":"PETITS POIS 5/1 EXTRA FINS"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"84be2173b69ae997591a81aaf40fb2f455b2c7fe",
+      "fields":{
+         "libelle_recette":"$$ CHOU FLEUR BECHAMEL",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$LC071",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"6b8e06a74ac0fabb773ad989f5939756a0fd4bdb",
+      "fields":{
+         "libellelong_denree":"BEURRE  MOTTE 5 KG",
+         "lait":"X",
+         "code_denree":"DBB001",
+         "code_recette":"$LS003",
+         "libelle_denree":"BEURRE MOTTE 5 KGDBD",
+         "libelle_recette":"$$ PUREE DE CAROTTES AU CUMIN"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"1aeb3ed0d24ac59cfa0d6f7d962e65379279441f",
+      "fields":{
+         "libelle_recette":"$$ RIZ CAMARGUAIS",
+         "libellelong_denree":"RIZ CAMARGUAIS",
+         "code_denree":"DLS028",
+         "code_recette":"$LS043",
+         "libelle_denree":"RIZ CAMARGUAIS"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"009a4495146312a0856e8ec87fc6bd1fa93d5d0c",
+      "fields":{
+         "libelle_recette":"$$ DAHL DE LENTILLES JAUNES BIO",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$LS061",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"c484983e3c13a39c23490ef697b773089636e55b",
+      "fields":{
+         "libellelong_denree":"BEURRE  MOTTE 5 KG",
+         "lait":"X",
+         "code_denree":"DBB001",
+         "code_recette":"$PE001",
+         "libelle_denree":"BEURRE MOTTE 5 KGDBD",
+         "libelle_recette":"$$ BRANDADE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"9495b25700c1ed4ea9cee5f23fffcf97e6636670",
+      "fields":{
+         "libellelong_denree":"EX PUREE POMMES DE TERRE 5 KG MOUSSELINE A CHAUD",
+         "code_recette":"$PE001",
+         "code_denree":"DES003",
+         "libelle_denree":"PUREE A CHAUD/20K",
+         "libelle_recette":"$$ BRANDADE",
+         "sulfites":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"9fc9e1c111030d10691017a8e668c8edcc5981f9",
+      "fields":{
+         "libelle_recette":"$$ SAUMON FRAIS CITRON \u00e9l\u00e9m",
+         "libellelong_denree":"SEL FIN POCHE 1 KG",
+         "code_denree":"DEC022",
+         "code_recette":"$PE059",
+         "libelle_denree":"SEL FIN POCHE 1 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"e16224c9ff36243e9ea1171ca0b280a154296e2a",
+      "fields":{
+         "libelle_recette":"$$ SAUCE TOMATE",
+         "libellelong_denree":"HERBES DE PROVENCES KG",
+         "code_denree":"DEC040",
+         "code_recette":"$VC021",
+         "libelle_denree":"HERBES DE PROVENCE KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"995f0aaffa77c66ffc4fb0617079457db699afc0",
+      "fields":{
+         "libelle_recette":"$$ SAUTE VEAU MARENGO LR",
+         "libellelong_denree":"SUCRE POUDRE 1KG (6.71/6/",
+         "code_denree":"DEF014",
+         "code_recette":"$VD011",
+         "libelle_denree":"SUCRE SEMOULE 1KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"263c13fad37c61c2fe1b256e9006aa40f548630f",
+      "fields":{
+         "libelle_recette":"$$ SAUTE VEAU MARENGO LR",
+         "libellelong_denree":"PERSIL HACHE SURG",
+         "code_denree":"DLC037",
+         "code_recette":"$VD011",
+         "libelle_denree":"PERSIL HACHE SURG 1K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"c9346c3f6607771bf060f63fb39326ceca8f42bd",
+      "fields":{
+         "libelle_recette":"YAOURT BUL BRAS VANILLE BIO",
+         "lait":"X",
+         "code_recette":"DBD060"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"4111886fa5d08c361f9a5e814da20106515c4f64",
+      "fields":{
+         "libelle_recette":"COMPOTE POMME FRAISE 5/1",
+         "code_recette":"DFB010"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"abf50f363e3a5b8b075d0ec3730a0e8e82811973",
+      "fields":{
+         "libelle_recette":"QUATRE QUART A TRANCHER 800g",
+         "lait":"X",
+         "ovoproduit":"X",
+         "gluten":"X",
+         "code_recette":"DGG002"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"b1951f7d1037d4d5f5e32eb9a5569e5c8b22ef8a",
+      "fields":{
+         "libelle_recette":"PAIN rond BAGNAT ELEM 90G",
+         "code_recette":"DHA044"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"c65061e7f3c76b39160b6e60d4a3b787b3cd3bcf",
+      "fields":{
+         "libelle_recette":"SALADE VERTE MELEE S/V 500 GR",
+         "code_recette":"DLV017"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"a7e91aea381de76a518abd4ca8e091d2db1bac35",
+      "fields":{
+         "code_recette":"$PE020",
+         "lait":"X",
+         "gluten":"X",
+         "code_denree":"DPS027",
+         "libelle_denree":"CUBE DE HOKI CUIT ENROBE 25 G",
+         "libelle_recette":"$$ CUBE DE POISSON MEUNIERE",
+         "poisson":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"3d515434c157a3f6d36dd85c16be6d8874eece7e",
+      "fields":{
+         "libelle_recette":"$$ FONDUE DE POIREAUX CAROTTES",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$LC018",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"aa59ee4ae5948b250c63dee6f9bbde784d7b6d86",
+      "fields":{
+         "libelle_recette":"BREBICREME  20G",
+         "lait":"X",
+         "code_recette":"DBF146"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"56c4b1d19fa8d2d19cef55a4dad8a47b65cb9d95",
+      "fields":{
+         "libellelong_denree":"BEURRE  MOTTE 5 KG",
+         "lait":"X",
+         "code_denree":"DBB001",
+         "code_recette":"$LC071",
+         "libelle_denree":"BEURRE MOTTE 5 KGDBD",
+         "libelle_recette":"$$ CHOU FLEUR BECHAMEL"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"c5fb5c3239ec9b9325f78f580b93fde7b4045a1d",
+      "fields":{
+         "libelle_recette":"YAOURT 100G A BOIRE FRAISE",
+         "lait":"X",
+         "code_recette":"DBD017"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"5839341b138b5ba3c3bc6d52fb0442bed0e176fa",
+      "fields":{
+         "libelle_recette":"$$ HARICOTS PLATS D ESPAGNE",
+         "libellelong_denree":"HARIC  PLATS ESPAG  (3.85/2.5k)",
+         "code_denree":"DLC048",
+         "code_recette":"$LC044",
+         "libelle_denree":"HARIC  PLATS ESPAG COUPES 2.5K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"816c2bd97757140f5c3f1fa5b2e71454d201d616",
+      "fields":{
+         "libellelong_denree":"ex CUBES DE COLIN",
+         "code_recette":"$PE043",
+         "code_denree":"DPS012",
+         "libelle_denree":"CUBES DE COLIN 27g",
+         "libelle_recette":"$$ CUBES POIS POIVRONS",
+         "poisson":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"b9fc68b49602ea269a9820de5e8b3c13e61b8515",
+      "fields":{
+         "libelle_recette":"ANANAS en tranches bris\u00e9es 3/1",
+         "code_recette":"DFB008"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"2acead4a9e7c9a01c837743cd9090a74282c531c",
+      "fields":{
+         "libelle_recette":"$$ SARDINES \u00e0 l huile/CITRON",
+         "libellelong_denree":"CITRONS  PETIT CALIBRE(5/55)",
+         "code_denree":"DFF007",
+         "code_recette":"$EP002",
+         "libelle_denree":"CITRONS PETIT CALIBRE(5/55)"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"331ebe6a4a8ee89498c83577d0b24d288730b42c",
+      "fields":{
+         "libelle_recette":"$$ CAROTTES A L'ORANGE",
+         "libellelong_denree":"CAROTTES RAPEES 5kg",
+         "code_denree":"DLV104",
+         "code_recette":"$ES022",
+         "libelle_denree":"CAROTTES RAPEES 5kg"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"7f80cd3ff676b873bac5a673b42aede3c2b7124b",
+      "fields":{
+         "libelle_recette":"$$ COURGETTES BECHAMEL",
+         "code_denree":"DEB019",
+         "code_recette":"$LC047",
+         "libelle_denree":"MUSCADE K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"2b439f1e6ba56149050460952ca155ce4f58f9b7",
+      "fields":{
+         "libelle_recette":"$$ POULET BIO AU JUS",
+         "libellelong_denree":"JUS DE POULET( 9.42/585g)",
+         "code_denree":"DEB062",
+         "code_recette":"$VV082",
+         "libelle_denree":"JUS DE POULET K S/SEL"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"9613bee4fe1290b62cddd1f755fcaecc4be4b410",
+      "fields":{
+         "libelle_recette":"CHOCOLAT TABLETTE NOIR 100GR",
+         "code_recette":"DEF003"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"b52df5202f64f5915b4914d95d6127b8420521b5",
+      "fields":{
+         "celeri":"X",
+         "libellelong_denree":"CELERI RAVE 5/1",
+         "code_recette":"$ES007",
+         "code_denree":"DLB030",
+         "libelle_denree":"CELERI RAVE 5/1",
+         "libelle_recette":"$$ CELERI REMOULADE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"14b3fd48079c23957eb3589bce011999978f7cbd",
+      "fields":{
+         "libelle_recette":"$$ SAL P DE TERRE (PARMENTIERE)",
+         "libellelong_denree":"SEL FIN POCHE 1 KG",
+         "code_denree":"DEC022",
+         "code_recette":"$ES066",
+         "libelle_denree":"SEL FIN POCHE 1 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"8434b454d532ec5f550b5e5a0d2c97ab5406a224",
+      "fields":{
+         "libelle_recette":"$$ COURGETTES BECHAMEL",
+         "libellelong_denree":"SEL GROS POCHE 1KG",
+         "code_denree":"DEC023",
+         "code_recette":"$LC047",
+         "libelle_denree":"SEL GROS POCHE 1KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"232ca1608cc714757e0923083a2fe66cb3b2709e",
+      "fields":{
+         "libelle_recette":"$$ DAHL DE LENTILLES JAUNES BIO",
+         "code_denree":"DEC086",
+         "code_recette":"$LS061",
+         "libelle_denree":"CURCUMA MOULU 250G"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"566235e55d9ec83c97deb06badf94c5427de6ea1",
+      "fields":{
+         "libellelong_denree":"PAVE DE SAUMON FRAIS",
+         "code_recette":"$PE059",
+         "code_denree":"DPF026",
+         "libelle_denree":"SAUMON FRAIS 90G s/s atmosph\u00e8re",
+         "libelle_recette":"$$ SAUMON FRAIS CITRON \u00e9l\u00e9m",
+         "poisson":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"e97049761dba51bf7b62c1ee86e758f8d73185ae",
+      "fields":{
+         "libelle_recette":"$$ SAUTE VEAU MARENGO LR",
+         "libellelong_denree":"OIGNONS COUPES(1.54/2.5)",
+         "code_denree":"DLC022",
+         "code_recette":"$VD011",
+         "libelle_denree":"OIGNONS COUPES EN DES 2.5K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"fb33629319f6fef0ac25f2e116fd8fdf06e9694a",
+      "fields":{
+         "libelle_recette":"PETITS SUISSES 30 GR",
+         "lait":"X",
+         "code_recette":"DBD009"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"ef4879e3a40432a4345508fb633063eabd9b1d5e",
+      "fields":{
+         "libelle_recette":"POMMES CHIPS 500 G",
+         "code_recette":"DES001"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"239739dc17de425377e92c7bdc88f5b4f2a4d493",
+      "fields":{
+         "libelle_recette":"COMPOTE IND POM/ABRICOT",
+         "code_recette":"DFB034"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"97911393d4910ab683529b002eb64c3706ac11f6",
+      "fields":{
+         "libelle_recette":"RILLETTES DE THON IND. 25G",
+         "code_recette":"DPC017"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"26baa641e80fa9a50506e7a6730861b2b8fec26e",
+      "fields":{
+         "libellelong_denree":"OEUFS DURS SOUS VIDE(3.84/30)",
+         "code_recette":"$EO004",
+         "code_denree":"DBO004",
+         "libelle_denree":"OEUFS DURS PLEIN AIR SOUS VIDE (53G)",
+         "ovoproduit":"X",
+         "libelle_recette":"$$ OEUF DUR"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"36a1fe80da1f65ff4dc11f80869a357a9ad4dc26",
+      "fields":{
+         "libelle_recette":"$$ SAL P DE TERRE (PARMENTIERE)",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$ES066",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"dc76c246b35b131433b62cc03fe52fda7d4546bf",
+      "fields":{
+         "libelle_recette":"$$ SAL D  HIVER (crudit\u00e9s/d\u00e9s pomme)",
+         "libellelong_denree":"EX APICUBE (CUBES DE POMMES S/V)",
+         "code_denree":"DFV001",
+         "code_recette":"$ES069",
+         "libelle_denree":"DES DE POMMES S/V 3KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"461a80b9636d136b3f15f301f62f04f8d7f3cc1d",
+      "fields":{
+         "libelle_recette":"$$ SAL D  HIVER (crudit\u00e9s/d\u00e9s pomme)",
+         "libellelong_denree":"CAROTTES RAPEES 5kg",
+         "code_denree":"DLV104",
+         "code_recette":"$ES069",
+         "libelle_denree":"CAROTTES RAPEES 5kg"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"42bfeab8f1ee496a6bb63b975abf8e30765a1746",
+      "fields":{
+         "libelle_recette":"$$ TABOULE (entr\u00e9e)",
+         "libellelong_denree":"GARNITURE TABOULE 5/1",
+         "code_denree":"DLB026",
+         "code_recette":"$ES070",
+         "libelle_denree":"GARNITURE TABOULE 5/1 GARBIT"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"585d5193ce96c874aac10771283b2bd2f7862f35",
+      "fields":{
+         "libelle_recette":"$$ SAL KOUKI AU CURRY",
+         "code_denree":"DEC035",
+         "code_recette":"$ES210",
+         "libelle_denree":"CURRY KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"99db063941696a9b89c91fddca955a79b6e310c4",
+      "fields":{
+         "libelle_recette":"$$ EPINARDS BECHAMEL",
+         "libellelong_denree":"SEL GROS POCHE 1KG",
+         "code_denree":"DEC023",
+         "code_recette":"$LC013",
+         "libelle_denree":"SEL GROS POCHE 1KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"be2b094704fbf2919c1006d5332fad270493784b",
+      "fields":{
+         "libellelong_denree":"BEURRE  MOTTE 5 KG",
+         "lait":"X",
+         "code_denree":"DBB001",
+         "code_recette":"$LC018",
+         "libelle_denree":"BEURRE MOTTE 5 KGDBD",
+         "libelle_recette":"$$ FONDUE DE POIREAUX CAROTTES"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"9b03c149a26c4e751af3b802d3ef418e1f7d7da4",
+      "fields":{
+         "code_recette":"$LP050",
+         "libellelong_denree":"TORSADES(3.25/5)",
+         "gluten":"X",
+         "code_denree":"DDA014",
+         "libelle_denree":"TORSADES 5Kg LUSTUCRU",
+         "libelle_recette":"$$ TORSADES HALLOWEEN"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"ddde87a5dbd85971a43cdab178a4f9eb50c6f04e",
+      "fields":{
+         "libelle_recette":"$$ PUREE POTIRON GRATINEE",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$LS021",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"5fd5c79895526d4601106cd0f46205f1f84a4723",
+      "fields":{
+         "libelle_recette":"$$ DAHL DE LENTILLES JAUNES BIO",
+         "libellelong_denree":"HUILE D  OLIVE",
+         "code_denree":"DEG009",
+         "code_recette":"$LS061",
+         "libelle_denree":"HUILE D  OLIVE 5L"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"8848228d97a75d1e1cd94cabbf2e29eb8fea4fe4",
+      "fields":{
+         "libellelong_denree":"LAIT ENTIER UHT 10L",
+         "lait":"X",
+         "code_denree":"DBL003",
+         "code_recette":"$PE001",
+         "libelle_denree":"LAIT ENTIER UHT 10L OUTRE",
+         "libelle_recette":"$$ BRANDADE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"be5c83f5c11ffa86fbddf88f5a5ca733886e9ade",
+      "fields":{
+         "libelle_recette":"$$ BRANDADE",
+         "libellelong_denree":"SEL GROS POCHE 1KG",
+         "code_denree":"DEC023",
+         "code_recette":"$PE001",
+         "libelle_denree":"SEL GROS POCHE 1KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"2628a64f8a4a95a5e73ab0abcd97a44cd84fdc78",
+      "fields":{
+         "libellelong_denree":"ex CUBES DE COLIN",
+         "code_recette":"$PE001",
+         "code_denree":"DPS012",
+         "libelle_denree":"CUBES DE COLIN 27g",
+         "libelle_recette":"$$ BRANDADE",
+         "poisson":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"795973f41ccb4b59874dfbfdf89cd790aafa153b",
+      "fields":{
+         "libelle_recette":"$$ FILET DE POISSON 50 g CITRON",
+         "code_denree":"DPS029",
+         "poisson":"X",
+         "code_recette":"$PE025",
+         "libelle_denree":"FILET POISSON CUIT 50G"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"92df3cc35b7165527545c6637a953f01824cd629",
+      "fields":{
+         "libellelong_denree":"PAVE DE SAUMON FRAIS",
+         "code_recette":"$PE058",
+         "code_denree":"DPF025",
+         "libelle_denree":"SAUMON FRAIS 70G s/s atmosph\u00e8re",
+         "libelle_recette":"$$ SAUMON FRAIS CITRON maternelle",
+         "poisson":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"4319807c8b373a7e7175eae8a44f2a2589fa5e44",
+      "fields":{
+         "code_recette":"$VC014",
+         "libellelong_denree":"ex DEMI LUNE CHEVRE MIEL BIO FRAIS LUISON",
+         "lait":"X",
+         "gluten":"X",
+         "code_denree":"DDF011",
+         "libelle_denree":"RAVIOLI RICOTTA EPINARDS BIO FRAIS",
+         "ovoproduit":"X",
+         "libelle_recette":"$$ RAVIOLI RICOTTA EPINARDS BIO"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"5aa8a5abab2f0339f5e0c3919f1877827439234c",
+      "fields":{
+         "libellelong_denree":"BEURRE  MOTTE 5 KG",
+         "lait":"X",
+         "code_denree":"DBB001",
+         "code_recette":"$VC021",
+         "libelle_denree":"BEURRE MOTTE 5 KGDBD",
+         "libelle_recette":"$$ SAUCE TOMATE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"3b602d4e37dad927d91afa2f1053010cce9495ab",
+      "fields":{
+         "libelle_recette":"$$ SAUCE TOMATE",
+         "libellelong_denree":"AIL HACHE SURGELE",
+         "code_denree":"DLC033",
+         "code_recette":"$VC021",
+         "libelle_denree":"AIL HACHE SURGELE 1K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"a361116e3faa1fc8e0f0e3f9925819eeb674b2cb",
+      "fields":{
+         "libelle_recette":"$$ ROTI DE VEAU (cuisson)",
+         "libellelong_denree":"SEL FIN POCHE 1 KG",
+         "code_denree":"DEC022",
+         "code_recette":"$VD004",
+         "libelle_denree":"SEL FIN POCHE 1 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"32cf60ffde827875ed8d00726df31421c47e7cf8",
+      "fields":{
+         "libelle_recette":"$$ SAUTE VEAU MARENGO LR",
+         "libellelong_denree":"FOND DE VEAU BRUN",
+         "code_denree":"DEB088",
+         "code_recette":"$VD011",
+         "libelle_denree":"FOND DE VEAU BRUN"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"81b54e173ae1d6dd485e955a863d1e2085d9e2c5",
+      "fields":{
+         "libelle_recette":"$$ POULET BIO AU JUS",
+         "libellelong_denree":"SEL FIN POCHE 1 KG",
+         "code_denree":"DEC022",
+         "code_recette":"$VV082",
+         "libelle_denree":"SEL FIN POCHE 1 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"ca67a530cac4677ee5ed93ce5309a36bf2b313d0",
+      "fields":{
+         "libelle_recette":"FROMAGE BLANC EN POT 5K",
+         "lait":"X",
+         "code_recette":"DBD016"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"53b09f6e5e0f5f4446fe1b0df174bc5bbceca3cb",
+      "fields":{
+         "libelle_recette":"CHANTENEIGE 16.6G",
+         "lait":"X",
+         "code_recette":"DBF014"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"e5778a7c73df0cd2ca85fefd1393cab24cd2aad7",
+      "fields":{
+         "libelle_recette":"TOME NOIRE 30G x24",
+         "code_recette":"DBF073"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"daff6746410ac7b0fc2e5e7816499e99061a63e3",
+      "fields":{
+         "libelle_recette":"TOME NOIRE 20G",
+         "lait":"X",
+         "code_recette":"DBF200"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"eaaf2c150b514a5a0e8308b5c961f3b7b5e1dee9",
+      "fields":{
+         "libelle_recette":"COMPOTE IND POM/MIRABELLE",
+         "code_recette":"DFB030"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"cf1eb0b7a6b07155a1082afcf2e566eddb4015c1",
+      "fields":{
+         "libelle_recette":"COMPOTE POMME BERLINGO",
+         "code_recette":"DFB044"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"34b8405067b486692d580687a8d8472860f6c8f5",
+      "fields":{
+         "libelle_recette":"FRUIT FRAIS BIOLOGIQUE",
+         "code_recette":"DFF043"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"d05ccc6e0f2ef3a93e351a2d1c16727b5ced6236",
+      "fields":{
+         "libelle_recette":"BISCUIT FOURRE CHOCOLAT BIO",
+         "gluten":"X",
+         "code_recette":"DGS004",
+         "fruits_a_coque":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"72ccebd5035ff78a49e11f05083e5d57415ea721",
+      "fields":{
+         "libelle_recette":"$$ TABOULE (entr\u00e9e)",
+         "libellelong_denree":"HUILE D  OLIVE",
+         "code_denree":"DEG009",
+         "code_recette":"$ES070",
+         "libelle_denree":"HUILE D  OLIVE 5L"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"61dc888e36d322fa2e500cacb07e99fd49fa6713",
+      "fields":{
+         "libelle_recette":"$$ CHOU FLEUR PERSILLE",
+         "libellelong_denree":"SEL FIN POCHE 1 KG",
+         "code_denree":"DEC022",
+         "code_recette":"$LC008",
+         "libelle_denree":"SEL FIN POCHE 1 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"7ed76659f7c37ea06fa062936386179e9ba566fd",
+      "fields":{
+         "libellelong_denree":"EMMENTHAL RAPE",
+         "lait":"X",
+         "code_denree":"DBF001",
+         "code_recette":"$LC013",
+         "libelle_denree":"EMMENTHAL RAPE/KG+",
+         "libelle_recette":"$$ EPINARDS BECHAMEL"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"157a2988a79dc567207981a34092eecb37274149",
+      "fields":{
+         "libelle_recette":"$$ EPINARDS BECHAMEL",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$LC013",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"80f04f0cceb551319b79ba16a472baed516d5b24",
+      "fields":{
+         "libelle_recette":"$$ FONDUE DE POIREAUX CAROTTES",
+         "libellelong_denree":"SEL FIN POCHE 1 KG",
+         "code_denree":"DEC022",
+         "code_recette":"$LC018",
+         "libelle_denree":"SEL FIN POCHE 1 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"45c5e7cd340695c44ef9fbeab6869607f6b219b8",
+      "fields":{
+         "libelle_recette":"$$ HARICOTS PLATS D ESPAGNE",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$LC044",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"38779750df5ac44c043a4164e27b0c66cc1aee43",
+      "fields":{
+         "libellelong_denree":"EMMENTHAL RAPE",
+         "lait":"X",
+         "code_denree":"DBF001",
+         "code_recette":"$LC071",
+         "libelle_denree":"EMMENTHAL RAPE/KG+",
+         "libelle_recette":"$$ CHOU FLEUR BECHAMEL"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"e072282bce1a42710aabf80c2c9c0ba225a7ae28",
+      "fields":{
+         "libelle_recette":"$$ GRATIN DE COURGETTES A LA TOMATE",
+         "code_denree":"DLB007",
+         "code_recette":"$LC095",
+         "libelle_denree":"TOMATE GARNITURE PIZZA 5/1"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"164acc49154f8e4ab8d20617ef7cad6a0f459daa",
+      "fields":{
+         "libelle_recette":"$$ TORSADES HALLOWEEN",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$LP050",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"20f4cfdd5186d921cc3f90df9843698029954140",
+      "fields":{
+         "libelle_recette":"$$ FILET DE POISSON 50 g CITRON",
+         "libellelong_denree":"CITRONS  PETIT CALIBRE(5/55)",
+         "code_denree":"DFF007",
+         "code_recette":"$PE025",
+         "libelle_denree":"CITRONS PETIT CALIBRE(5/55)"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"0f0e4252a7bc2c0338bab1536f3c1415b482584a",
+      "fields":{
+         "libelle_recette":"$$ SAUMON FRAIS CITRON maternelle",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$PE058",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"3676d0fc24671be573d83ba4220f6ca7d25dbeaa",
+      "fields":{
+         "libelle_recette":"$$ FILET DE POISSON 70 g CITRON",
+         "code_denree":"DPS015",
+         "poisson":"X",
+         "code_recette":"$PE074",
+         "libelle_denree":"FILET POISSON CUIT 70G"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"a9d10c15b384c08af2cb8d0e1831cb2ec3f7ff8d",
+      "fields":{
+         "libelle_recette":"$$ RAVIOLI RICOTTA EPINARDS BIO",
+         "libellelong_denree":"SEL FIN POCHE 1 KG",
+         "code_denree":"DEC022",
+         "code_recette":"$VC014",
+         "libelle_denree":"SEL FIN POCHE 1 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"6f1260a430badb7be0b2406279e7e29feeabf426",
+      "fields":{
+         "libelle_recette":"BLEU DOUCEUR  IND 25G",
+         "lait":"X",
+         "code_recette":"DBF081"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"aef2e5d6837e93b488a824ac0f8d78115c32affe",
+      "fields":{
+         "libelle_recette":"COMTE 30g x24",
+         "lait":"X",
+         "code_recette":"DBF170"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"1a02c1800eae448f88ec77b3559ef30cdd70e9a7",
+      "fields":{
+         "libelle_recette":"OEUFS DURS PLEIN AIR SOUS VIDE (53G)",
+         "ovoproduit":"X",
+         "code_recette":"DBO004"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"3e54e6909d5978cfb174f754e0cb0397bf9d09f9",
+      "fields":{
+         "libellelong_denree":"BEURRE  MOTTE 5 KG",
+         "lait":"X",
+         "code_denree":"DBB001",
+         "code_recette":"$LC013",
+         "libelle_denree":"BEURRE MOTTE 5 KGDBD",
+         "libelle_recette":"$$ EPINARDS BECHAMEL"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"81a39aad379cc285ebb777e88bcaed2613ef2def",
+      "fields":{
+         "libelle_recette":"$$ BOULETTES SOJA SCE TOMATE",
+         "code_denree":"DLB007",
+         "code_recette":"$SV008",
+         "libelle_denree":"TOMATE GARNITURE PIZZA 5/1"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"7421e6c7e4ae6ad31ff426707ea39ff484abff71",
+      "fields":{
+         "libelle_recette":"CANTAL JEUNE 30g x24",
+         "lait":"X",
+         "code_recette":"DBF040"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"a22a216fb22025233b3fbd34a1940f779b7682b8",
+      "fields":{
+         "code_recette":"$GF011",
+         "libellelong_denree":"BROWNIE-DEMI (coup\u00e9 en 60/plaque)",
+         "lait":"X",
+         "gluten":"X",
+         "code_denree":"DGF056",
+         "libelle_denree":"BROWNIE-DEMI (coup\u00e9 en 60/plaque )",
+         "ovoproduit":"X",
+         "libelle_recette":"BROWNIE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"84ea219577413de0f37d7bde695a27ba59f3129b",
+      "fields":{
+         "libelle_recette":"$$ CHOU FLEUR PERSILLE",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$LC008",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"10d2f06ac8013cc4cdfb2404a9eff61381d7965f",
+      "fields":{
+         "libellelong_denree":"BEURRE  MOTTE 5 KG",
+         "lait":"X",
+         "code_denree":"DBB001",
+         "code_recette":"$LC044",
+         "libelle_denree":"BEURRE MOTTE 5 KGDBD",
+         "libelle_recette":"$$ HARICOTS PLATS D ESPAGNE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"9f4bc9ca2b7546b95aac880ed5206f11a309162f",
+      "fields":{
+         "libelle_recette":"$$ CHOU FLEUR BECHAMEL",
+         "code_denree":"DEB058",
+         "code_recette":"$LC071",
+         "libelle_denree":"ROUX BLANC 10Kg"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"1b12d97637abdbdf8a038b8e2af4013077da4176",
+      "fields":{
+         "celeri":"X",
+         "gluten":"X",
+         "code_denree":"DSV008",
+         "libelle_denree":"NUGGETS VEGETAL 20G",
+         "libelle_recette":"$$ NUGGETS VEGETAL",
+         "code_recette":"$SV007"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"fa4e57a27f1dbb950536a418761fa96676226878",
+      "fields":{
+         "libelle_recette":"$$ SAUTE VEAU MARENGO LR",
+         "libellelong_denree":"OIGNON GRELOT",
+         "code_denree":"DLC034",
+         "code_recette":"$VD011",
+         "libelle_denree":"OIGNON GRELOT2.5K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"1ccc1b1d3a7ddb4a8cbedfcec6d5290b549bf28a",
+      "fields":{
+         "libelle_recette":"YAOURT FRAISE MIXE BIO",
+         "lait":"X",
+         "code_recette":"DBD049"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"f457449a70a956ffb34c83c3164040f63f8990cc",
+      "fields":{
+         "libelle_recette":"MADELEINE COQUE CHOCO",
+         "ovoproduit":"X",
+         "gluten":"X",
+         "code_recette":"DGG045",
+         "soja":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"daa3b31a58fb7b29a186149203cacbe5ce77239a",
+      "fields":{
+         "libelle_recette":"SALADIERE MAIS THON LEGUMES 160G",
+         "code_recette":"DLP003"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"8ffb7af859362211cde407970d75fad477b63cf7",
+      "fields":{
+         "libellelong_denree":"SAUCISSON SEC EN 50TR DE 10GR",
+         "lait":"X",
+         "code_denree":"DCS028",
+         "code_recette":"$EC005",
+         "libelle_denree":"SAUCISSON SEC EN 50TR DE 10GR",
+         "libelle_recette":"$$ SAUCISSON SEC/beurre"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"e622fb76ede9612dd0d66292825e191a856c1cb6",
+      "fields":{
+         "code_recette":"$ES070",
+         "libellelong_denree":"SEMOULE COUSCOUS 25K(16.85/25)",
+         "gluten":"X",
+         "code_denree":"DLS005",
+         "libelle_denree":"SEMOULE COUSCOUS 25K",
+         "libelle_recette":"$$ TABOULE (entr\u00e9e)"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"9550fc353e83f39296905a1eaae9665b2acd1051",
+      "fields":{
+         "celeri":"X",
+         "libellelong_denree":"POTAGE DE LEGUMES(5.61/6)",
+         "lait":"X",
+         "code_recette":"$EV002",
+         "code_denree":"DEP003",
+         "libelle_denree":"VELOUTE DE LEGUMES",
+         "libelle_recette":"$$ POTAGE LEGUMES"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"727d3233224757d5c701ce4280706c384869c3da",
+      "fields":{
+         "libelle_recette":"$$ CAROTTE RONDELLES (BTE)",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$LB010",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"b0820c576d5d0801dbf8c50d8cfdca0f57090fee",
+      "fields":{
+         "libellelong_denree":"CREME FRAICHE 5LITRE (9.67/5L)",
+         "lait":"X",
+         "code_denree":"DBL006",
+         "code_recette":"$LC013",
+         "libelle_denree":"CREME FRAICHE 5LITRE",
+         "libelle_recette":"$$ EPINARDS BECHAMEL"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"97f7748c0774906917603f116f18fd81ac05318c",
+      "fields":{
+         "libelle_recette":"$$ FONDUE DE POIREAUX CAROTTES",
+         "libellelong_denree":"POIREAUX COUPES",
+         "code_denree":"DLC035",
+         "code_recette":"$LC018",
+         "libelle_denree":"POIREAUX (BLANCS)COUPES RONDELLES"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"eb244db19ed390b1467753a5e69549ca8d45c464",
+      "fields":{
+         "libelle_recette":"$$ GRATIN DE COURGETTES A LA TOMATE",
+         "libellelong_denree":"COURGETTES RONDELLES",
+         "code_denree":"DLC042",
+         "code_recette":"$LC095",
+         "libelle_denree":"COURGETTES RONDELLES   2.5K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"b27e2c877615b0793da46439220274ab45e2b4f8",
+      "fields":{
+         "libelle_recette":"$$ DAHL DE LENTILLES JAUNES BIO",
+         "libellelong_denree":"AIL SEMOULE",
+         "code_denree":"DEB001",
+         "code_recette":"$LS061",
+         "libelle_denree":"AIL SEMOULE K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"9cf5eee2833519ed07c144b0d72802b1f9c0f1cd",
+      "fields":{
+         "libelle_recette":"$$ CUBES POIS POIVRONS",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$PE043",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"5666339d60425eac5ae383df9938dd8ed257a58b",
+      "fields":{
+         "libelle_recette":"$$ SAUMON FRAIS CITRON maternelle",
+         "libellelong_denree":"CITRONS  PETIT CALIBRE(5/55)",
+         "code_denree":"DFF007",
+         "code_recette":"$PE058",
+         "libelle_denree":"CITRONS PETIT CALIBRE(5/55)"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"0b88d73a81a5ad4c62b534796f00e76ef6d73505",
+      "fields":{
+         "libelle_recette":"$$ SAUCISSE VEGETALE",
+         "code_denree":"DSV009",
+         "code_recette":"$SV011",
+         "libelle_denree":"SAUCISSE VEGETALE 80g"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"6ad948d49ad6c3bf1f43c0a8dbf7dd9cb6e57729",
+      "fields":{
+         "libellelong_denree":"BEURRE  MOTTE 5 KG",
+         "lait":"X",
+         "code_denree":"DBB001",
+         "code_recette":"$VC014",
+         "libelle_denree":"BEURRE MOTTE 5 KGDBD",
+         "libelle_recette":"$$ RAVIOLI RICOTTA EPINARDS BIO"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"58ff617b548057755453deace237a45a9d44011a",
+      "fields":{
+         "libelle_recette":"$$ POULET BIO AU JUS",
+         "libellelong_denree":"DECOUPE DE POULET BIOLOGIQUE",
+         "code_denree":"DVG001",
+         "code_recette":"$VV082",
+         "libelle_denree":"DECOUPE DE POULET BIOLOGIQUE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"8d72e754984e6b92112c731f29178f8622640b44",
+      "fields":{
+         "libelle_recette":"$$ HARICOTS VERTS   (BTE)",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$LB005",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"7c3afbe4c199c497f9e1c2a5a67ccae93c3c44de",
+      "fields":{
+         "libelle_recette":"$$ HARICOTS VERTS   (BTE)",
+         "libellelong_denree":"ECHALOTTE CISELEE",
+         "code_denree":"DLC045",
+         "code_recette":"$LB005",
+         "libelle_denree":"ECHALOTTE CISELEE 1K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"479bc27d10a4ce9fb61bd31d1fb3b7e1f79cc295",
+      "fields":{
+         "libellelong_denree":"BEURRE  MOTTE 5 KG",
+         "lait":"X",
+         "code_denree":"DBB001",
+         "code_recette":"$LB015",
+         "libelle_denree":"BEURRE MOTTE 5 KGDBD",
+         "libelle_recette":"$$ PETITS POIS FRANCAISE BTE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"4632c8c7944363a01fb6e3cd689253efaa085aa2",
+      "fields":{
+         "libelle_recette":"$$ POMMES NOISETTES",
+         "code_denree":"DLC012",
+         "code_recette":"$LC024",
+         "libelle_denree":"POMMES NOISETTE pr\u00e9-cuites 2.5KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"6d98703d999520cad3fdb18a20f9532ef0dcb613",
+      "fields":{
+         "libelle_recette":"$$ COURGETTES BECHAMEL",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$LC047",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"c9c0cc6237c0eac5f49010d1441773f56abc2bdd",
+      "fields":{
+         "libellelong_denree":"LAIT ENTIER UHT 10L",
+         "lait":"X",
+         "code_denree":"DBL003",
+         "code_recette":"$LS003",
+         "libelle_denree":"LAIT ENTIER UHT 10L OUTRE",
+         "libelle_recette":"$$ PUREE DE CAROTTES AU CUMIN"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"5b3c28c888ce0344f439713955373dfc2840be75",
+      "fields":{
+         "libellelong_denree":"CREME FRAICHE 5LITRE (9.67/5L)",
+         "lait":"X",
+         "code_denree":"DBL006",
+         "code_recette":"$LS061",
+         "libelle_denree":"CREME FRAICHE 5LITRE",
+         "libelle_recette":"$$ DAHL DE LENTILLES JAUNES BIO"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"856e0db629a463af0970d3f0698e35a49dfc03e7",
+      "fields":{
+         "libelle_recette":"$$ SAUMON FRAIS CITRON maternelle",
+         "libellelong_denree":"SEL FIN POCHE 1 KG",
+         "code_denree":"DEC022",
+         "code_recette":"$PE058",
+         "libelle_denree":"SEL FIN POCHE 1 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"810342ba2d3aeb548199c3868befb7dbbe683f90",
+      "fields":{
+         "libelle_recette":"$$ BOULETTES SOJA SCE TOMATE",
+         "libellelong_denree":"SEL FIN POCHE 1 KG",
+         "code_denree":"DEC022",
+         "code_recette":"$SV008",
+         "libelle_denree":"SEL FIN POCHE 1 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"2168195bd8d4ebd98dfe826fa4a05aa1567b9556",
+      "fields":{
+         "libelle_recette":"$$ BOULETTES SOJA SCE TOMATE",
+         "libellelong_denree":"HUILE D  OLIVE",
+         "code_denree":"DEG009",
+         "code_recette":"$SV008",
+         "libelle_denree":"HUILE D  OLIVE 5L"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"b4fc6432cbfca4bf4a281435fbd937996fc940e4",
+      "fields":{
+         "libelle_recette":"$$ BOULETTES SOJA SCE TOMATE",
+         "code_denree":"DSV007",
+         "soja":"X",
+         "code_recette":"$SV008",
+         "libelle_denree":"BOULETTE SOJA TOMATE BASILIC 18G"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"f486b3f0e410b81dbefda8d6acde0a6b1c49c733",
+      "fields":{
+         "libelle_recette":"$$ SAUCE TOMATE",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$VC021",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"ce5a4ae7d4f5c4477aee920849cafc9a1bc019c6",
+      "fields":{
+         "libelle_recette":"$$ SAUTE VEAU MARENGO LR",
+         "libellelong_denree":"CONCENTRE DE TOMATES  5/1",
+         "code_denree":"DEB009",
+         "code_recette":"$VD011",
+         "libelle_denree":"CONCENTRE DE TOMATES  5/1"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"27ad232759e0796569f23a85337b724a8556758f",
+      "fields":{
+         "libelle_recette":"$$ SAUTE VEAU MARENGO LR",
+         "libellelong_denree":"CHAMPIGNONS DE PARIS 5/1",
+         "code_denree":"DLB001",
+         "code_recette":"$VD011",
+         "libelle_denree":"CHAMPIGNONS DE PARIS  EMINCES 5/1"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"c81c338fa1c3a4c292d8570b01c24d2f893d8408",
+      "fields":{
+         "libelle_recette":"$$ SAUTE VEAU MARENGO LR",
+         "libellelong_denree":"AIL HACHE SURGELE",
+         "code_denree":"DLC033",
+         "code_recette":"$VD011",
+         "libelle_denree":"AIL HACHE SURGELE 1K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"ad4ed71e1893abb4de61bf745093940e5d4b1947",
+      "fields":{
+         "libelle_recette":"$$ OMELETTE NATURE PLEIN AIR 90G",
+         "ovoproduit":"X",
+         "code_denree":"DBO021",
+         "code_recette":"$VO018",
+         "libelle_denree":"OMELETTE fra\u00eeche plein air  90G x8"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"47eef4959077eecde01e178fed0928a84231f2a8",
+      "fields":{
+         "libelle_recette":"$$ SAUCISSE DE PORC BIO MATER",
+         "code_denree":"DVP030",
+         "code_recette":"$VP015",
+         "libelle_denree":"CHIPOLATA FRAICHE BIO 80G"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"6af6435d1907e4243e53f823d5c44b37950df4b6",
+      "fields":{
+         "libellelong_denree":"BEURRE  MOTTE 5 KG",
+         "lait":"X",
+         "code_denree":"DBB001",
+         "code_recette":"$VV109",
+         "libelle_denree":"BEURRE MOTTE 5 KGDBD",
+         "libelle_recette":"$$ EMINCE DINDE SCE SUPREME"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"2db400ed736e144d073571e647a1d59a76ef37fc",
+      "fields":{
+         "libelle_recette":"JUS DE RAISIN BIO",
+         "code_recette":"DAB026"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"110b683d822626ffb5e226600d1da78618a4e933",
+      "fields":{
+         "libelle_recette":"FROMAGE BLANC EN POT 500g",
+         "lait":"X",
+         "code_recette":"DBD027"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"42a09022747a74b7b8a86b4f218ebe518dda3098",
+      "fields":{
+         "libelle_recette":"BEIGNET POMME INDIVIDUEL",
+         "code_recette":"DGC031"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"055148dc82989b8421742709c416c0ecc4b5de50",
+      "fields":{
+         "libelle_recette":"GAILLARDISE ABRICOT",
+         "ovoproduit":"X",
+         "gluten":"X",
+         "code_recette":"DGG004"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"97ac2d4fd29536ef6197e7dcb29b0c00f61e287e",
+      "fields":{
+         "libelle_recette":"$$ FONDUE DE POIREAUX CAROTTES",
+         "libellelong_denree":"CAROTTES RAPEES 5kg",
+         "code_denree":"DLV104",
+         "code_recette":"$LC018",
+         "libelle_denree":"CAROTTES RAPEES 5kg"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"5a77ec99031e89d4fa19a483e191cf5c7df5ee4a",
+      "fields":{
+         "libelle_recette":"$$ PUREE DE CAROTTES AU CUMIN",
+         "libellelong_denree":"SEL GROS POCHE 1KG",
+         "code_denree":"DEC023",
+         "code_recette":"$LS003",
+         "libelle_denree":"SEL GROS POCHE 1KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"d25033d56fdeafe83d8522e7e0ff908871f0cfd1",
+      "fields":{
+         "libellelong_denree":"BEURRE  MOTTE 5 KG",
+         "lait":"X",
+         "code_denree":"DBB001",
+         "code_recette":"$LS021",
+         "libelle_denree":"BEURRE MOTTE 5 KGDBD",
+         "libelle_recette":"$$ PUREE POTIRON GRATINEE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"50aed367ba3cf69e0ba36d4433d866205bf48601",
+      "fields":{
+         "libelle_recette":"$$ DAUBE DE BOEUF BBC",
+         "libellelong_denree":"CONCENTRE DE TOMATES  5/1",
+         "code_denree":"DEB009",
+         "code_recette":"$VB040",
+         "libelle_denree":"CONCENTRE DE TOMATES  5/1"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"c3c338591882a7d4e95eb88e684bfadce7f961de",
+      "fields":{
+         "libelle_recette":"$$ DAUBE DE BOEUF BBC",
+         "libellelong_denree":"OIGNONS COUPES(1.54/2.5)",
+         "code_denree":"DLC022",
+         "code_recette":"$VB040",
+         "libelle_denree":"OIGNONS COUPES EN DES 2.5K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"956e2f15cbb8879cc020f015b4fa05974d0e604e",
+      "fields":{
+         "libelle_recette":"$$ SAUCE TOMATE",
+         "libellelong_denree":"OIGNONS COUPES(1.54/2.5)",
+         "code_denree":"DLC022",
+         "code_recette":"$VC021",
+         "libelle_denree":"OIGNONS COUPES EN DES 2.5K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"e143ae3ec7de7dcaac6d9539a16cd95261cc2e97",
+      "fields":{
+         "libelle_recette":"$$ SAUTE VEAU MARENGO LR",
+         "libellelong_denree":"CANDIE BLANC",
+         "code_denree":"DAV058",
+         "code_recette":"$VD011",
+         "libelle_denree":"CANDIE BLANC vinibag 10L"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"b05661cfba3560fca701d94c9aff81b012216a73",
+      "fields":{
+         "code_recette":"$VV035",
+         "lait":"X",
+         "gluten":"X",
+         "code_denree":"DVG059",
+         "libelle_denree":"PANE MOELLEUX NATURE 90G / 50 PIECES",
+         "ovoproduit":"X",
+         "libelle_recette":"$$ PANE MOELLEUX NATURE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"358d068d1adc81d003af98c2bc57e8e67c76c085",
+      "fields":{
+         "libelle_recette":"$$ EMINCE DINDE SCE SUPREME",
+         "code_denree":"DEB003",
+         "code_recette":"$VV109",
+         "libelle_denree":"BOUILLON DE VOLAILLE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"b826c60b58b1d23055403b97ac745f727c23f98a",
+      "fields":{
+         "libelle_recette":"$$ EMINCE DINDE SCE SUPREME",
+         "libellelong_denree":"EMINCE VOLAILLE 20G",
+         "code_denree":"DVG067",
+         "code_recette":"$VV109",
+         "libelle_denree":"EMINCE VOLAILLE 20G"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"db8dcd58b127dd46c374b3a890f2f02906c69aae",
+      "fields":{
+         "libelle_recette":"CANTAL JEUNE 25G",
+         "lait":"X",
+         "code_recette":"DBF054"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"ec168c6967d8b19bca2b6fc46e51f3f984511441",
+      "fields":{
+         "libelle_recette":"$$ TORTILLA LEGUMES 90g",
+         "ovoproduit":"X",
+         "code_denree":"DBO022",
+         "code_recette":"$VO019",
+         "libelle_denree":"TORTILLA  COURGETTE 90G"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"9e01ac85e549ab5613a9be5eb6c52ba60b2cce26",
+      "fields":{
+         "libelle_recette":"$$ TORSADES HALLOWEEN",
+         "code_denree":"DLV046",
+         "code_recette":"$LP050",
+         "libelle_denree":"BRUNOISE DE COURGETTE 5kg"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"143f2f8b35483efe062ce36ef93d90e982231c31",
+      "fields":{
+         "libellelong_denree":"EMMENTHAL DES BARQ 500g",
+         "lait":"X",
+         "code_denree":"DBF017",
+         "code_recette":"$ES046",
+         "libelle_denree":"EMMENTHAL DES BARQ 500g",
+         "libelle_recette":"$$ SAL VERTE /EMMENTAL"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"fd2f404d04da4c5ac86e0f46ae7d83d81814d73b",
+      "fields":{
+         "libelle_recette":"$$ FILET DE POISSON 70 g CITRON",
+         "libellelong_denree":"CITRONS  PETIT CALIBRE(5/55)",
+         "code_denree":"DFF007",
+         "code_recette":"$PE074",
+         "libelle_denree":"CITRONS PETIT CALIBRE(5/55)"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"28e187c68e50bfad87ab3ee4544c2939fecea8d6",
+      "fields":{
+         "code_recette":"$EQ028",
+         "libellelong_denree":"PIZZA BIOLOGIQUE",
+         "lait":"X",
+         "gluten":"X",
+         "code_denree":"DQP007",
+         "libelle_denree":"PIZZA BIOLOGIQUE",
+         "ovoproduit":"X",
+         "libelle_recette":"$$ PIZZA BIOLOGIQUE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"b5d3bc804d20ac6ffd37c71a698d00eec85217e9",
+      "fields":{
+         "libelle_recette":"$$ HARICOTS VERTS   (BTE)",
+         "libellelong_denree":"HARICOTS  VERTS  FINS JA",
+         "code_denree":"DLB037",
+         "code_recette":"$LB005",
+         "libelle_denree":"HARICOTS  VERTS EXTRA FINS 5/1"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"7650f172f936afd7394d100f83e8da57255f6ead",
+      "fields":{
+         "libelle_recette":"$$ PUREE POTIRON GRATINEE",
+         "libellelong_denree":"SEL FIN POCHE 1 KG",
+         "code_denree":"DEC022",
+         "code_recette":"$LS021",
+         "libelle_denree":"SEL FIN POCHE 1 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"e762e81994fdcffdb36affce423a51bc234048ba",
+      "fields":{
+         "libelle_recette":"$$ RAVIOLI RICOTTA EPINARDS BIO",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$VC014",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"5650613c1c6f12029aafe721bc7ffcf83be4e268",
+      "fields":{
+         "libellelong_denree":"CREME FRAICHE 5LITRE (9.67/5L)",
+         "lait":"X",
+         "code_denree":"DBL006",
+         "code_recette":"$VV109",
+         "libelle_denree":"CREME FRAICHE 5LITRE",
+         "libelle_recette":"$$ EMINCE DINDE SCE SUPREME"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"cb92045227d70558b2031aa63026fb370aeffd4a",
+      "fields":{
+         "libelle_recette":"$$ TABOULE (entr\u00e9e)",
+         "code_denree":"DLV056",
+         "code_recette":"$ES070",
+         "libelle_denree":"POIVRON JAUNE CUBES x1kg"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"9ba71dde13f349d301f4924c777af9f3daab9c90",
+      "fields":{
+         "libelle_recette":"$$ CAROTTE RONDELLES (BTE)",
+         "code_denree":"DEG025",
+         "code_recette":"$LB010",
+         "libelle_denree":"HUILE GOUT BEURRE 5L"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"cf6f65f0018d192b42bacb2cb4ff5a95e84f396e",
+      "fields":{
+         "libelle_recette":"$$ TORSADES HALLOWEEN",
+         "libellelong_denree":"OLIVES NOIRES DENOYAUT ROUELLES 5/1",
+         "code_denree":"DEC012",
+         "code_recette":"$LP050",
+         "libelle_denree":"OLIVES NOIRES DENOYAUT ROUELLES 5/1"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"3ad31dd79e4d9f850c2f0ca042ac25d75d8b1285",
+      "fields":{
+         "libelle_recette":"$$ BRANDADE",
+         "libellelong_denree":"HUILE D  OLIVE",
+         "code_denree":"DEG009",
+         "code_recette":"$PE001",
+         "libelle_denree":"HUILE D  OLIVE 5L"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"148caeda10ce667f30072b5b1a76f20cd856f734",
+      "fields":{
+         "libelle_recette":"$$ SAUCE TOMATE",
+         "libellelong_denree":"SEL GROS POCHE 1KG",
+         "code_denree":"DEC023",
+         "code_recette":"$VC021",
+         "libelle_denree":"SEL GROS POCHE 1KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"4210cc6c2eec67cd22e0d90afa31ada738b63396",
+      "fields":{
+         "libelle_recette":"$$ ROTI DE VEAU (cuisson)",
+         "libellelong_denree":"ROTI DE VEAU",
+         "code_denree":"DVV003",
+         "code_recette":"$VD004",
+         "libelle_denree":"ROTI DE VEAU LABEL ROUGE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"ebeb3406755d3396c4262599bedf3b37e40e07e8",
+      "fields":{
+         "libelle_recette":"$$ EMINCE DINDE SCE SUPREME",
+         "libellelong_denree":"OIGNONS COUPES(1.54/2.5)",
+         "code_denree":"DLC022",
+         "code_recette":"$VV109",
+         "libelle_denree":"OIGNONS COUPES EN DES 2.5K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"52371db67f41cd2466e2eeaa3449ae0c0482a2c4",
+      "fields":{
+         "libelle_recette":"BANANES FRUIT COURT(110)",
+         "code_recette":"DFF004"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"d23c952b29aa22ce790d0364c09d703d828f602b",
+      "fields":{
+         "libelle_recette":"$$ HARICOTS VERTS   (BTE)",
+         "libellelong_denree":"SEL FIN POCHE 1 KG",
+         "code_denree":"DEC022",
+         "code_recette":"$LB005",
+         "libelle_denree":"SEL FIN POCHE 1 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"19826d5c315e081a2f28e9e5eadd01b5fa8e071a",
+      "fields":{
+         "libelle_recette":"$$ PETITS POIS FRANCAISE BTE",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$LB015",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"381b0fe94b87ce7637aaee8320591d4a7857e30d",
+      "fields":{
+         "libelle_recette":"$$ CHOU FLEUR PERSILLE",
+         "libellelong_denree":"AIL HACHE SURGELE",
+         "code_denree":"DLC033",
+         "code_recette":"$LC008",
+         "libelle_denree":"AIL HACHE SURGELE 1K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"3f0070ea4fa56988cead0a0768d13b68167ea18f",
+      "fields":{
+         "libelle_recette":"$$ EPINARDS BECHAMEL",
+         "libellelong_denree":"EPINARDS  BRANCHE  PALETS (1.35/2.5k)",
+         "code_denree":"DLC019",
+         "code_recette":"$LC013",
+         "libelle_denree":"EPINARDS BRANCHE  PALETS 2.5K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"6466a16910f6be23fdb5d284a5f65b6d43e2d556",
+      "fields":{
+         "libellelong_denree":"LAIT ENTIER UHT 10L",
+         "lait":"X",
+         "code_denree":"DBL003",
+         "code_recette":"$LC047",
+         "libelle_denree":"LAIT ENTIER UHT 10L OUTRE",
+         "libelle_recette":"$$ COURGETTES BECHAMEL"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"b335bef16b402bdd61250cbb8558471a311b79d4",
+      "fields":{
+         "libellelong_denree":"CREME FRAICHE 5LITRE (9.67/5L)",
+         "lait":"X",
+         "code_denree":"DBL006",
+         "code_recette":"$LC071",
+         "libelle_denree":"CREME FRAICHE 5LITRE",
+         "libelle_recette":"$$ CHOU FLEUR BECHAMEL"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"1378e237f90c5b464d0316e6a7a95fd5a9328920",
+      "fields":{
+         "libelle_recette":"$$ PUREE DE CAROTTES AU CUMIN",
+         "libellelong_denree":"CUMIN MOULU 400G",
+         "code_denree":"DEB030",
+         "code_recette":"$LS003",
+         "libelle_denree":"CUMIN MOULU 400G"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"87c88432e96ad8d045f78843d735f11027bc13aa",
+      "fields":{
+         "libellelong_denree":"BEURRE  MOTTE 5 KG",
+         "lait":"X",
+         "code_denree":"DBB001",
+         "code_recette":"$LS043",
+         "libelle_denree":"BEURRE MOTTE 5 KGDBD",
+         "libelle_recette":"$$ RIZ CAMARGUAIS"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"722de50a7fc5503af5aba2393c4eef3d10c681ea",
+      "fields":{
+         "libelle_recette":"$$ BRANDADE",
+         "libellelong_denree":"AIL SEMOULE",
+         "code_denree":"DEB001",
+         "code_recette":"$PE001",
+         "libelle_denree":"AIL SEMOULE K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"2e1365ec7ec9277dde13ef493d76aa2d53ec31d6",
+      "fields":{
+         "libellelong_denree":"BEURRE  MOTTE 5 KG",
+         "lait":"X",
+         "code_denree":"DBB001",
+         "code_recette":"$PE043",
+         "libelle_denree":"BEURRE MOTTE 5 KGDBD",
+         "libelle_recette":"$$ CUBES POIS POIVRONS"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"7368758c8587aa88cfac8400d0fb1756e6b0190e",
+      "fields":{
+         "code_recette":"$PE134",
+         "libellelong_denree":"POISSON PANE CUIT 80G",
+         "gluten":"X",
+         "code_denree":"DPS137",
+         "libelle_denree":"POISSON PANE CUIT 80G",
+         "libelle_recette":"$$ POISSON PANE CUIT / CITRON",
+         "poisson":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"c10be620f6b7bce26a346936a6c32c83ff6776d6",
+      "fields":{
+         "libelle_recette":"$$ DAUBE DE BOEUF BBC",
+         "libellelong_denree":"LAURIER MOULU 275g (ex 175)",
+         "code_denree":"DEB078",
+         "code_recette":"$VB040",
+         "libelle_denree":"LAURIER MOULU 275g"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"dcf56326d2fa34ae54b55f3be9ac0768ad1546b1",
+      "fields":{
+         "code_recette":"$EQ008",
+         "libellelong_denree":"GOUGERE",
+         "lait":"X",
+         "gluten":"X",
+         "code_denree":"DQP018",
+         "libelle_denree":"GOUGERE",
+         "ovoproduit":"X",
+         "libelle_recette":"$$ GOUGERE INDIVIDUELLE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"6f6f8a1ff6df5baeec8cb5a4621cb91c60402d77",
+      "fields":{
+         "libellelong_denree":"CORNICHONS RONDELLES 5/1",
+         "code_recette":"$ES066",
+         "code_denree":"DEC082",
+         "libelle_denree":"CORNICHONS RONDELLES 5/1",
+         "libelle_recette":"$$ SAL P DE TERRE (PARMENTIERE)",
+         "sulfites":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"f37c83a2c342189b8808f9b8d3888afc1d6cbe0f",
+      "fields":{
+         "libelle_recette":"$$ TABOULE (entr\u00e9e)",
+         "libellelong_denree":"TOMATES CUBE SOUS VIDE",
+         "code_denree":"DLV004",
+         "code_recette":"$ES070",
+         "libelle_denree":"TOMATES CUBE SOUS VIDE 5kg"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"cd234d0a6dd3c3f8fab1065e9711226f25e309ec",
+      "fields":{
+         "libelle_recette":"$$ SAL MELANGE TENDRE",
+         "libellelong_denree":"SALADE MELANGE TENDRE",
+         "code_denree":"DLV083",
+         "code_recette":"$ES183",
+         "libelle_denree":"SALADE MELANGE TENDRE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"447d4df8deed1a4f4cd58f0c0a6dbb319f651feb",
+      "fields":{
+         "libellelong_denree":"VELOUTE POTIRON",
+         "lait":"X",
+         "code_denree":"DEP001",
+         "code_recette":"$EV005",
+         "libelle_denree":"VELOUTE DE POTIRON",
+         "libelle_recette":"$$ POTAGE DE  POTIRON"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"619087073b0dec893b283059b438af0512607d9a",
+      "fields":{
+         "libelle_recette":"$$ CHOU FLEUR PERSILLE",
+         "libellelong_denree":"PERSIL HACHE SURG",
+         "code_denree":"DLC037",
+         "code_recette":"$LC008",
+         "libelle_denree":"PERSIL HACHE SURG 1K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"e9f730d7a5819eead44f92deda02f64785aac193",
+      "fields":{
+         "libellelong_denree":"LAIT ENTIER UHT 10L",
+         "lait":"X",
+         "code_denree":"DBL003",
+         "code_recette":"$LC013",
+         "libelle_denree":"LAIT ENTIER UHT 10L OUTRE",
+         "libelle_recette":"$$ EPINARDS BECHAMEL"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"9c39818b2ad4b9c702809623871c511d25dbf264",
+      "fields":{
+         "libelle_recette":"$$ FONDUE DE POIREAUX CAROTTES",
+         "libellelong_denree":"SUCRE POUDRE 1KG (6.71/6/",
+         "code_denree":"DEF014",
+         "code_recette":"$LC018",
+         "libelle_denree":"SUCRE SEMOULE 1KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"ee30aceee014e8da34fdcb67cf3c86ca49ecb1e1",
+      "fields":{
+         "libelle_recette":"$$ HARICOTS PLATS D ESPAGNE",
+         "libellelong_denree":"SEL FIN POCHE 1 KG",
+         "code_denree":"DEC022",
+         "code_recette":"$LC044",
+         "libelle_denree":"SEL FIN POCHE 1 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"b813e1e4093a7149ab4697998ef9ffdc635953e1",
+      "fields":{
+         "libelle_recette":"$$ HARICOTS PLATS D ESPAGNE",
+         "libellelong_denree":"ECHALOTTE CISELEE",
+         "code_denree":"DLC045",
+         "code_recette":"$LC044",
+         "libelle_denree":"ECHALOTTE CISELEE 1K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"1487b65fa6b4d40870279e9cc0d2f0eedaa0a963",
+      "fields":{
+         "libellelong_denree":"EX PUREE POMMES DE TERRE 5 KG MOUSSELINE A CHAUD",
+         "code_recette":"$LS003",
+         "code_denree":"DES003",
+         "libelle_denree":"PUREE A CHAUD/20K",
+         "libelle_recette":"$$ PUREE DE CAROTTES AU CUMIN",
+         "sulfites":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"e925a22495b4c426a036a92b15649bc771f01af9",
+      "fields":{
+         "libellelong_denree":"EMMENTHAL RAPE",
+         "lait":"X",
+         "code_denree":"DBF001",
+         "code_recette":"$LS021",
+         "libelle_denree":"EMMENTHAL RAPE/KG+",
+         "libelle_recette":"$$ PUREE POTIRON GRATINEE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"e311b129c50f3c9d72d803825c673c7e1b7927bf",
+      "fields":{
+         "libelle_recette":"$$ DAHL DE LENTILLES JAUNES BIO",
+         "libellelong_denree":"CUMIN MOULU 400G",
+         "code_denree":"DEB030",
+         "code_recette":"$LS061",
+         "libelle_denree":"CUMIN MOULU 400G"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"38a6389c1fb0fdeb9601ae19b31c7e419660c744",
+      "fields":{
+         "libelle_recette":"$$ DAHL DE LENTILLES JAUNES BIO",
+         "libellelong_denree":"OIGNONS COUPES(1.54/2.5)",
+         "code_denree":"DLC022",
+         "code_recette":"$LS061",
+         "libelle_denree":"OIGNONS COUPES EN DES 2.5K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"aba26e19f1cbd7c7f2a78d4955c481aaf7334c40",
+      "fields":{
+         "libelle_recette":"$$ P DE TERRE VAPEUR",
+         "code_denree":"DEG025",
+         "code_recette":"$LV003",
+         "libelle_denree":"HUILE GOUT BEURRE 5L"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"7f46a709c0edb53aa630fcce978a43dbd80ad9c8",
+      "fields":{
+         "code_recette":"$PE061",
+         "libellelong_denree":"FILET MERLU BLANC MEUNIERE 100G",
+         "lait":"X",
+         "gluten":"X",
+         "code_denree":"DPS065",
+         "libelle_denree":"FILET MERLU BLANC MEUNIERE 100G(colin)",
+         "libelle_recette":"$$ FILET DE POISSON MEUNIERE",
+         "poisson":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"15b9781af12d190029a2c12a7998137500186c9c",
+      "fields":{
+         "libelle_recette":"$$ POISSON PANE CUIT / CITRON",
+         "libellelong_denree":"CITRONS  PETIT CALIBRE(5/55)",
+         "code_denree":"DFF007",
+         "code_recette":"$PE134",
+         "libelle_denree":"CITRONS PETIT CALIBRE(5/55)"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"b2e2992d01513050ad5a50d6843a36286ee0e864",
+      "fields":{
+         "code_recette":"$SV006",
+         "lait":"X",
+         "gluten":"X",
+         "code_denree":"DSV005",
+         "libelle_denree":"PANE DE BLE FROMAGE EPINARD 100G",
+         "libelle_recette":"$$ PANE DE BLE FROMAGE EPINARD"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"28b7f4576383fc69d700f41a3922b37121f006c7",
+      "fields":{
+         "libelle_recette":"$$ SAUCE TOMATE",
+         "libellelong_denree":"SUCRE POUDRE 1KG (6.71/6/",
+         "code_denree":"DEF014",
+         "code_recette":"$VC021",
+         "libelle_denree":"SUCRE SEMOULE 1KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"74bbe4b95f07333f6df87a945dc9316909ea77f6",
+      "fields":{
+         "libelle_recette":"$$ SAUTE VEAU MARENGO LR",
+         "code_denree":"DVV001",
+         "code_recette":"$VD011",
+         "libelle_denree":"SAUTE VEAU  LABEL ROUGE 30G"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"9ca777b28395bf61831c002cf75ddf0e4ff2a9e4",
+      "fields":{
+         "libelle_recette":"$$ EMINCE DINDE SCE SUPREME",
+         "code_denree":"DEB058",
+         "code_recette":"$VV109",
+         "libelle_denree":"ROUX BLANC 10Kg"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"1c8060d53c94c3cf5760ccd790330ac739bae76c",
+      "fields":{
+         "libelle_recette":"MOUSSE AU CHOCOLAT",
+         "lait":"X",
+         "ovoproduit":"X",
+         "soja":"X",
+         "code_recette":"DBD022"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"853ee9f87fe79a2b26f62f5766d73185cbbc89c2",
+      "fields":{
+         "libelle_recette":"PETIT CABRAY SOIGNON 20 GR",
+         "lait":"X",
+         "code_recette":"DBF142"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"4484227fbe6c0d7aba15297c4fdaa10a6e54039e",
+      "fields":{
+         "libelle_recette":"CHIPS 30G",
+         "code_recette":"DES002"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"1355057e39fbfa2668c43db580fc5fedcd3dcd6c",
+      "fields":{
+         "libellelong_denree":"ex SAUCISSON SEC EN 10TR DE 10G",
+         "lait":"X",
+         "code_denree":"DCS032",
+         "code_recette":"$EC005",
+         "libelle_denree":"SAUCISSON SEC EN 8TR DE 10G",
+         "libelle_recette":"$$ SAUCISSON SEC/beurre"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"24dfa331c57db255ad690e756f25138a7afd18b7",
+      "fields":{
+         "libelle_recette":"$$ SAL P DE TERRE (PARMENTIERE)",
+         "libellelong_denree":"EX PDT CUBE 2 KG",
+         "code_denree":"DLV034",
+         "code_recette":"$ES066",
+         "libelle_denree":"PDT CUBE 2 KG LUNOR"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"e0a284372b2aa06ce035f81e2293adb7568a0a0a",
+      "fields":{
+         "libelle_recette":"$$ SAL KOUKI AU CURRY",
+         "libellelong_denree":"KOUKI EMINCE S/V 500 GR",
+         "code_denree":"DLV068",
+         "code_recette":"$ES210",
+         "libelle_denree":"KOUKI EMINCE S/V 5kg"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"facf576c6c246fab64e1a8f83fc34bca8a2df9f5",
+      "fields":{
+         "libellelong_denree":"POTAGE POIREAUX  POMMES DE TERRE(5.61/6)",
+         "lait":"X",
+         "code_denree":"DEP004",
+         "code_recette":"$EV003",
+         "libelle_denree":"VELOUTE POIREAUX  POMMES DE TERRE",
+         "libelle_recette":"$$ POTAGE POIREAUX Pde TERRE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"3c0f032bab4b390e4f121542cf70c46d2ed2232a",
+      "fields":{
+         "libellelong_denree":"BEURRE  MOTTE 5 KG",
+         "lait":"X",
+         "code_denree":"DBB001",
+         "code_recette":"$LB005",
+         "libelle_denree":"BEURRE MOTTE 5 KGDBD",
+         "libelle_recette":"$$ HARICOTS VERTS   (BTE)"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"4f39b7dca7fc48c785d3a3db6eede7cef49df107",
+      "fields":{
+         "libellelong_denree":"BEURRE  MOTTE 5 KG",
+         "lait":"X",
+         "code_denree":"DBB001",
+         "code_recette":"$LC047",
+         "libelle_denree":"BEURRE MOTTE 5 KGDBD",
+         "libelle_recette":"$$ COURGETTES BECHAMEL"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"017a9188c550754255c0aa7969fcebcd30f8efa2",
+      "fields":{
+         "libelle_recette":"$$ COURGETTES BECHAMEL",
+         "code_denree":"DEB058",
+         "code_recette":"$LC047",
+         "libelle_denree":"ROUX BLANC 10Kg"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"8346c2347e96e46e383a32e65e142aaff7c0a0e4",
+      "fields":{
+         "libellelong_denree":"LAIT 1/2 ECREME UHT10 L",
+         "lait":"X",
+         "code_denree":"DBL002",
+         "code_recette":"$PE043",
+         "libelle_denree":"LAIT 1/2 ECREME UHT10 L",
+         "libelle_recette":"$$ CUBES POIS POIVRONS"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"8516e22b987406d30d86525a35fec8534d2c37f1",
+      "fields":{
+         "libellelong_denree":"FUMET DE POISSON(6.13/900g)",
+         "code_recette":"$PE043",
+         "code_denree":"DEB011",
+         "libelle_denree":"FUMET DE POISSON",
+         "libelle_recette":"$$ CUBES POIS POIVRONS",
+         "poisson":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"260a08a394cb1816f0254eef4e5303c9b1897772",
+      "fields":{
+         "libelle_recette":"$$ BOULETTES SOJA SCE TOMATE",
+         "libellelong_denree":"TOMATES CONCASSEES  5/1",
+         "code_denree":"DLB021",
+         "code_recette":"$SV008",
+         "libelle_denree":"TOMATES CONCASSEES 5/1"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"578488dc0b46aef78402c84c954072871ee05b31",
+      "fields":{
+         "code_recette":"$VC012",
+         "libellelong_denree":"RAVIOLIS AUX LEGUMES BIO FRAIS LUISON",
+         "lait":"X",
+         "gluten":"X",
+         "code_denree":"DDF001",
+         "libelle_denree":"RAVIOLI AUX LEGUMES BIO FRAIS",
+         "ovoproduit":"X",
+         "libelle_recette":"$$ RAVIOLIS LEGUMES BIO FRAIS"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"2e0738964a3284140ebe9aa71b834696c9b0bdfc",
+      "fields":{
+         "libelle_recette":"$$ POULET BIO AU JUS",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$VV082",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"28748edc9d6f29e4c6523e87fe0a245a951edbec",
+      "fields":{
+         "libelle_recette":"CREME ANGLAISE 1L",
+         "lait":"X",
+         "code_recette":"DBD020"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"9cb0fb5b34544274f6fc2af9c1b8b014d9167070",
+      "fields":{
+         "libelle_recette":"GAILLARDISE CHOCOLAT",
+         "ovoproduit":"X",
+         "gluten":"X",
+         "code_recette":"DGG060",
+         "fruits_a_coque":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"6964f8fec5030b97487ba44516188dfb3a4eef92",
+      "fields":{
+         "libellelong_denree":"MAYONNAISE / 5KG(5.47/5)",
+         "code_recette":"$ES210",
+         "code_denree":"DEG010",
+         "libelle_denree":"MAYONNAISE / 5KG",
+         "ovoproduit":"X",
+         "libelle_recette":"$$ SAL KOUKI AU CURRY"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"7e8c6122795e02f1c5f2ad76d473c50900cd9746",
+      "fields":{
+         "libelle_recette":"$$ DAHL DE LENTILLES JAUNES BIO",
+         "code_denree":"DEB057",
+         "code_recette":"$LS061",
+         "libelle_denree":"BOUILLON DE LEGUMES"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"879f09084d4429e4172bafaf80dae6ad49d3a91e",
+      "fields":{
+         "libelle_recette":"TARTE POMMES BIO PREDEC 12 PARTS",
+         "lait":"X",
+         "ovoproduit":"X",
+         "gluten":"X",
+         "code_recette":"DGF129"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"04d811e66911966497764d5a26ff6819e789a797",
+      "fields":{
+         "libelle_recette":"$$ TABOULE (entr\u00e9e)",
+         "libellelong_denree":"JUS  CITRON",
+         "code_denree":"DAB017",
+         "code_recette":"$ES070",
+         "libelle_denree":"JUS CITRON 100CL X10"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"372146c5c7bc95d095ddad10fabdd7663f3fdb6e",
+      "fields":{
+         "libelle_recette":"BAGUETTE RUSTIQUE BIO 200g",
+         "gluten":"X",
+         "code_recette":"DHA023"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"a1b0a307328b6217996c8ac96362bc1ec9e8355e",
+      "fields":{
+         "libelle_recette":"$$ PUREE DE CAROTTES AU CUMIN",
+         "libellelong_denree":"CAROTTES RONDELLES",
+         "code_denree":"DLC001",
+         "code_recette":"$LS003",
+         "libelle_denree":"CAROTTES RONDELLES"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"5dc6c0da43b12264ee6b6f1de679d50b78892166",
+      "fields":{
+         "libelle_recette":"$$ RIZ CAMARGUAIS",
+         "libellelong_denree":"SEL FIN POCHE 1 KG",
+         "code_denree":"DEC022",
+         "code_recette":"$LS043",
+         "libelle_denree":"SEL FIN POCHE 1 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"09ead0bb71e1ed9bbcf9562283d67ab585d12e08",
+      "fields":{
+         "libelle_recette":"PETIT COTENTIN",
+         "lait":"X",
+         "code_recette":"DBF080"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"0d95a1767285572dca558a5868c37ee47d408bad",
+      "fields":{
+         "libelle_recette":"$$ RILLETTES DE LA MER IND.",
+         "code_denree":"DPC017",
+         "code_recette":"$EP010",
+         "libelle_denree":"RILLETTES DE THON IND. 25G"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"2cf03199c2266741a69e144bd4c0e2c59237e59d",
+      "fields":{
+         "libelle_recette":"$$ SAL RUSSE",
+         "libellelong_denree":"MACEDOINE LEGUMES  5/1",
+         "code_denree":"DLB004",
+         "code_recette":"$ES024",
+         "libelle_denree":"MACEDOINE LEGUMES  5/1"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"a72655a5dd4535022f98a557b3c0ae7e248f5c26",
+      "fields":{
+         "libellelong_denree":"EMMENTHAL DES BARQ 500g",
+         "lait":"X",
+         "code_denree":"DBF017",
+         "code_recette":"$ES210",
+         "libelle_denree":"EMMENTHAL DES BARQ 500g",
+         "libelle_recette":"$$ SAL KOUKI AU CURRY"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"cdb0f25e5b14a14b5de65c73531029e877480e6b",
+      "fields":{
+         "libelle_recette":"$$ HARICOTS PLATS D ESPAGNE",
+         "libellelong_denree":"PERSIL HACHE SURG",
+         "code_denree":"DLC037",
+         "code_recette":"$LC044",
+         "libelle_denree":"PERSIL HACHE SURG 1K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"6c02b4d5643881bc6b8890df8d1c14215dcb8c16",
+      "fields":{
+         "libelle_recette":"$$ TORSADES HALLOWEEN",
+         "code_denree":"DEG024",
+         "code_recette":"$LP050",
+         "libelle_denree":"MELANGE HUILE COLZA OLIVE 5L"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"bc90a6404f8ef974036a86c08bcb4885d3f937ed",
+      "fields":{
+         "libellelong_denree":"LAIT ENTIER UHT 10L",
+         "lait":"X",
+         "code_denree":"DBL003",
+         "code_recette":"$LS021",
+         "libelle_denree":"LAIT ENTIER UHT 10L OUTRE",
+         "libelle_recette":"$$ PUREE POTIRON GRATINEE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"babe14be833903e610bc2d375645b5962d65fb4a",
+      "fields":{
+         "libelle_recette":"$$ DAHL DE LENTILLES JAUNES BIO",
+         "code_denree":"DLS020",
+         "code_recette":"$LS061",
+         "libelle_denree":"LENTILLES JAUNES  BIO"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"6439fc043626096fb5af35981be1ab63dee312fa",
+      "fields":{
+         "libelle_recette":"$$ BRANDADE",
+         "libellelong_denree":"PERSIL HACHE SURG",
+         "code_denree":"DLC037",
+         "code_recette":"$PE001",
+         "libelle_denree":"PERSIL HACHE SURG 1K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"4e8b2650d78eeae35f1a33b0f34398ac229617b8",
+      "fields":{
+         "libelle_recette":"$$ ROTI DE VEAU (cuisson)",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$VD004",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"750c234ef3290f0a3c4e17745b2abfa63dbdeae2",
+      "fields":{
+         "libelle_recette":"$$ SAUTE VEAU MARENGO LR",
+         "code_denree":"DEB058",
+         "code_recette":"$VD011",
+         "libelle_denree":"ROUX BLANC 10Kg"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"498ef411e5decd4032067a7df10c7669e80376ac",
+      "fields":{
+         "libelle_recette":"$$ OMELETTE NATURE PLEIN AIR 70G",
+         "ovoproduit":"X",
+         "code_denree":"DBO012",
+         "code_recette":"$VO010",
+         "libelle_denree":"OMELETTE fra\u00eeche plein air  70G x8"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"c89c67f842f7bc68a272ab1f9ae86ac256a704ab",
+      "fields":{
+         "libelle_recette":"$$ SAUCISSE DE PORC BIO PRIM",
+         "code_denree":"DVP031",
+         "code_recette":"$VP021",
+         "libelle_denree":"CHIPOLATA FRAICHE BIO 100G"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"eb0108036e0e4a31f16e5a8d5d33b7b34123cfe0",
+      "fields":{
+         "libelle_recette":"BLEU DOUCEUR 30g x24",
+         "lait":"X",
+         "code_recette":"DBF011"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"e12fa32f60ade506cd378f201d45138704cb7d79",
+      "fields":{
+         "libelle_recette":"MIMOLETTE 18g",
+         "lait":"X",
+         "code_recette":"DBF072"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"6d081175668c125f841892bcd21083006e346f35",
+      "fields":{
+         "libelle_recette":"COMTE PORTION 25G",
+         "lait":"X",
+         "code_recette":"DBF089"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"c048665e51350f11476115464477915d48aadd9f",
+      "fields":{
+         "libelle_recette":"LAIT CHOCOLATE 20 CL",
+         "lait":"X",
+         "code_recette":"DBL004"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"4a4f8dec159811abbdc9e7c0c1a6e4f8ec15a06e",
+      "fields":{
+         "libelle_recette":"BI CHOCOS/2 ronds 40G CHOCOLAT",
+         "lait":"X",
+         "gluten":"X",
+         "code_recette":"DGG019",
+         "soja":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"d764c610751a5330020b37ca295da71c77ab0076",
+      "fields":{
+         "libelle_recette":"$$ PATE GASCON BIO",
+         "moutarde":"X",
+         "code_recette":"$EC001",
+         "code_denree":"DEC065",
+         "libelle_denree":"CORNICHON 5/1 +de 150"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"d65d9d3fd04fa2afce958858ecad406372c4555b",
+      "fields":{
+         "libellelong_denree":"MAYONNAISE / 5KG(5.47/5)",
+         "code_recette":"$ES007",
+         "code_denree":"DEG010",
+         "libelle_denree":"MAYONNAISE / 5KG",
+         "ovoproduit":"X",
+         "libelle_recette":"$$ CELERI REMOULADE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"3c6002d57eb3e374f4b711bf7f8465c53f9f588c",
+      "fields":{
+         "libelle_recette":"$$ SAL VERTE",
+         "libellelong_denree":"SALADE VERTE MELEE S/V 500 GR",
+         "code_denree":"DLV017",
+         "code_recette":"$ES028",
+         "libelle_denree":"SALADE VERTE MELEE S/V 500 GR"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"97c22d70d5dbfa69f88f09ddd721eb95932bb127",
+      "fields":{
+         "libelle_recette":"$$ CAROTTE RONDELLES (BTE)",
+         "libellelong_denree":"SEL FIN POCHE 1 KG",
+         "code_denree":"DEC022",
+         "code_recette":"$LB010",
+         "libelle_denree":"SEL FIN POCHE 1 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"97aaf3a70cb1880c06cc6b021cef6336b64785c9",
+      "fields":{
+         "libelle_recette":"$$ PETITS POIS FRANCAISE BTE",
+         "libellelong_denree":"SEL FIN POCHE 1 KG",
+         "code_denree":"DEC022",
+         "code_recette":"$LB015",
+         "libelle_denree":"SEL FIN POCHE 1 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"4205965fce35e08aac7e8deb3a5ee36f7e12dc4a",
+      "fields":{
+         "libelle_recette":"$$ CHOU FLEUR PERSILLE",
+         "libellelong_denree":"CHOUX-FLEURS(1.9/2.5)",
+         "code_denree":"DLC002",
+         "code_recette":"$LC008",
+         "libelle_denree":"CHOUX-FLEURS/FRANCE 2.5k"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"baf10f7f6269b6ce8c77c4c0270a13ccc34fb505",
+      "fields":{
+         "libelle_recette":"$$ EPINARDS BECHAMEL",
+         "code_denree":"DEB019",
+         "code_recette":"$LC013",
+         "libelle_denree":"MUSCADE K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"5472a4676cec8e368711a72eb30330601bad753b",
+      "fields":{
+         "libellelong_denree":"EMMENTHAL RAPE",
+         "lait":"X",
+         "code_denree":"DBF001",
+         "code_recette":"$LC047",
+         "libelle_denree":"EMMENTHAL RAPE/KG+",
+         "libelle_recette":"$$ COURGETTES BECHAMEL"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"084d311e6cdee7b3aa2d724a502610bf2f3ce858",
+      "fields":{
+         "libellelong_denree":"CREME FRAICHE 5LITRE (9.67/5L)",
+         "lait":"X",
+         "code_denree":"DBL006",
+         "code_recette":"$LC047",
+         "libelle_denree":"CREME FRAICHE 5LITRE",
+         "libelle_recette":"$$ COURGETTES BECHAMEL"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"cd53e0a65d9dfb526d6f4601742226dfda7459cc",
+      "fields":{
+         "libelle_recette":"$$ COURGETTES BECHAMEL",
+         "libellelong_denree":"COURGETTES RONDELLES",
+         "code_denree":"DLC042",
+         "code_recette":"$LC047",
+         "libelle_denree":"COURGETTES RONDELLES   2.5K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"e319954a88dea3dc20f4e94655e368577ea26878",
+      "fields":{
+         "libellelong_denree":"BEURRE  MOTTE 5 KG",
+         "lait":"X",
+         "code_denree":"DBB001",
+         "code_recette":"$LC095",
+         "libelle_denree":"BEURRE MOTTE 5 KGDBD",
+         "libelle_recette":"$$ GRATIN DE COURGETTES A LA TOMATE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"bdf0169377119de80464ac833fa27622be3d0eea",
+      "fields":{
+         "libelle_recette":"$$ GRATIN DE COURGETTES A LA TOMATE",
+         "libellelong_denree":"TOMATES CONCASSEES  5/1",
+         "code_denree":"DLB021",
+         "code_recette":"$LC095",
+         "libelle_denree":"TOMATES CONCASSEES 5/1"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"2b7c6800b2544d3cba67d32082328b50c0973fc8",
+      "fields":{
+         "libelle_recette":"$$ PUREE POTIRON GRATINEE",
+         "libellelong_denree":"COURGE CUBES 15K",
+         "code_denree":"DLV062",
+         "code_recette":"$LS021",
+         "libelle_denree":"COURGE CUBES 15K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"9b27cd84e60df293e48542632be7ce90109f0bca",
+      "fields":{
+         "libelle_recette":"$$ RIZ CAMARGUAIS",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$LS043",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"52fa5f2f03db2648e169355a11cd77aca599b191",
+      "fields":{
+         "libelle_recette":"$$ DAHL DE LENTILLES JAUNES BIO",
+         "libellelong_denree":"SEL FIN POCHE 1 KG",
+         "code_denree":"DEC022",
+         "code_recette":"$LS061",
+         "libelle_denree":"SEL FIN POCHE 1 KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"f974f9e3ad661e6d86e91345c9f8f5a2dff7c34d",
+      "fields":{
+         "code_recette":"$PE001",
+         "libellelong_denree":"CROUTONS (500G)",
+         "gluten":"X",
+         "code_denree":"DHA003",
+         "libelle_denree":"CROUTONS (500G) NATURE",
+         "libelle_recette":"$$ BRANDADE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"a1583acff6263279bc6d7f34ea0eb2983d3479d2",
+      "fields":{
+         "libelle_recette":"$$ ROTI D AGNEAU CUIT",
+         "libellelong_denree":"GIGOT D AGNEAU CUIT",
+         "code_denree":"DVA001",
+         "code_recette":"$VA017",
+         "libelle_denree":"ROTI GIGOT D AGNEAU CUIT"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"6e5cb8659a379ca6b8faa8713745a84caf099d86",
+      "fields":{
+         "libelle_recette":"$$ DAUBE DE BOEUF BBC",
+         "code_denree":"DEB058",
+         "code_recette":"$VB040",
+         "libelle_denree":"ROUX BLANC 10Kg"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"dea2c8905f8abdc15ca29f8dda9a7996a92ad3f0",
+      "fields":{
+         "libelle_recette":"CAMEMBERT PORTION",
+         "lait":"X",
+         "code_recette":"DBF002"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"b695c0d354e19e2389ac5729883ac6d4fd23aade",
+      "fields":{
+         "libelle_recette":"EMMENTAL BIO 20g x30",
+         "code_recette":"DBF062"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"d58989712f071d2e8cd41afa27322fc6f74b80c1",
+      "fields":{
+         "libelle_recette":"EMMENTAL BIO 20g",
+         "lait":"X",
+         "code_recette":"DBF084"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"33c881578c64122c9f9669a3e7d4be95e3b006ce",
+      "fields":{
+         "libelle_recette":"SEL FIN DOSE 2000 RATIONS",
+         "code_recette":"DEC024"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"858150479de5b1bae26fc2f7839fc93a6075d600",
+      "fields":{
+         "libelle_recette":"BOUDOIR 10G/2",
+         "lait":"X",
+         "ovoproduit":"X",
+         "gluten":"X",
+         "code_recette":"DGS026"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"1fae0394bad5a463a331cdefdebc8ce0a9db6810",
+      "fields":{
+         "libelle_recette":"CLUB EMMENTAL CRUDITES",
+         "code_recette":"DLV080"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"aa777acecfdf19d4dceedbca36b67ebf81da635d",
+      "fields":{
+         "libellelong_denree":"MICROBEURRE 10 GR",
+         "lait":"X",
+         "code_denree":"DBB002",
+         "code_recette":"PAC001",
+         "libelle_denree":"MICROBEURRE 10 GR",
+         "libelle_recette":"MICROBEURRE"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"98eedf6289828f7d8dca8ea0f47ca9bc87272923",
+      "fields":{
+         "libelle_recette":"$$ PATE GASCON BIO",
+         "libellelong_denree":"PATE GASCON BIO 180G",
+         "code_denree":"DCB002",
+         "code_recette":"$EC001",
+         "libelle_denree":"PATE GASCON BIO 180 GR"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"6f95d89a43411db2f8d541195992d477c9517fa2",
+      "fields":{
+         "libellelong_denree":"SARDINES HUILE  4/4",
+         "code_recette":"$EP002",
+         "code_denree":"DPC026",
+         "libelle_denree":"SARDINES 4/4 HUILE VEGETALE",
+         "libelle_recette":"$$ SARDINES \u00e0 l huile/CITRON",
+         "poisson":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"ac6f4471e44260d3f789a4561c3cd3b6b732bf3b",
+      "fields":{
+         "libelle_recette":"$$ HARICOTS VERTS   (BTE)",
+         "libellelong_denree":"PERSIL HACHE SURG",
+         "code_denree":"DLC037",
+         "code_recette":"$LB005",
+         "libelle_denree":"PERSIL HACHE SURG 1K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"918ba00649cc635d49b3cf0fd00a7c8593ba81c1",
+      "fields":{
+         "libellelong_denree":"EX PUREE POMMES DE TERRE 5 KG MOUSSELINE A CHAUD",
+         "code_recette":"$LS021",
+         "code_denree":"DES003",
+         "libelle_denree":"PUREE A CHAUD/20K",
+         "libelle_recette":"$$ PUREE POTIRON GRATINEE",
+         "sulfites":"X"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"09b7975d89d11f2ce18141955c3e24b40767eddf",
+      "fields":{
+         "libelle_recette":"$$ DAHL DE LENTILLES JAUNES BIO",
+         "libellelong_denree":"CAROTTES RONDELLES",
+         "code_denree":"DLC001",
+         "code_recette":"$LS061",
+         "libelle_denree":"CAROTTES RONDELLES"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"c9edf64dc0b3a6707de4cf905d9ab234c30782d2",
+      "fields":{
+         "libelle_recette":"$$ BOULETTES SOJA SCE TOMATE",
+         "libellelong_denree":"POIVRE GRIS MOULU",
+         "code_denree":"DEC015",
+         "code_recette":"$SV008",
+         "libelle_denree":"POIVRE GRIS MOULU K"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"d93764f7f97798d6d849ead066ffb450c2925697",
+      "fields":{
+         "libelle_recette":"$$ DAUBE DE BOEUF BBC",
+         "libellelong_denree":"SEL GROS POCHE 1KG",
+         "code_denree":"DEC023",
+         "code_recette":"$VB040",
+         "libelle_denree":"SEL GROS POCHE 1KG"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"db30eb22fa0468581c2722b7553c802b7e934230",
+      "fields":{
+         "libelle_recette":"$$ TORTILLA LEGUMES 60g",
+         "ovoproduit":"X",
+         "code_denree":"DBO020",
+         "code_recette":"$VO021",
+         "libelle_denree":"TORTILLA  COURGETTE 60G"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"2410a92e45e0f0768ffbcd2c58c4f190e6c21ceb",
+      "fields":{
+         "libelle_recette":"SUCRE SEMOULE 1KG",
+         "code_recette":"DEF014"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   },
+   {
+      "datasetid":"denrees-extrait-de-datameal",
+      "recordid":"67f996c0301deb0378777227736a6d9f61c5bc85",
+      "fields":{
+         "libelle_recette":"FRUIT FRAIS",
+         "code_recette":"DFF013"
+      },
+      "record_timestamp":"2018-10-22T05:30:00+02:00"
+   }
+]
