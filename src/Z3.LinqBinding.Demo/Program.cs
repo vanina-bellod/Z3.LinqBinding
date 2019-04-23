@@ -18,7 +18,7 @@ namespace Z3.LinqBinding.Demo
 
 			//SimpleExamples();
 
-			//TestSudoku();
+			TestSudoku();
 
 			TestMissionariesAndCannibals();
 

@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Z3.LinqBinding</RootNamespace>
     <AssemblyName>Z3.LinqBinding</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -72,6 +72,9 @@
     <Reference Include="ExpressionUtils, Version=1.1.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MiaPlaza.ExpressionUtils.1.1.3\lib\net45\ExpressionUtils.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Z3, Version=4.8.4.0, Culture=neutral, PublicKeyToken=9c8d792caae602a2, processorArchitecture=AMD64">
+      <HintPath>..\packages\Z3-20190104.4.8.4\lib\netstandard1.4\Microsoft.Z3.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -79,25 +82,6 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-  </ItemGroup>
-  <ItemGroup Condition="'$(Platform)' == 'x64'">
-    <Reference Include="Microsoft.Z3">
-      <HintPath>..\..\lib\z3-4.8.1-x64-win\bin\Microsoft.Z3.dll</HintPath>
-    </Reference>
-    <!--<Folder Include="lib\x64\" />-->
-    <Content Include="..\..\lib\z3-4.8.1-x64-win\bin\libz3.dll">
-      <Link>%(Filename)%(Extension)</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-  <ItemGroup Condition="'$(Platform)' == 'x86'">
-    <Reference Include="Microsoft.Z3">
-      <HintPath>..\..\lib\z3-4.8.1-x86-win\bin\Microsoft.Z3.dll</HintPath>
-    </Reference>
-    <Content Include="..\..\lib\z3-4.8.1-x86-win\bin\libz3.dll">
-      <Link>%(Filename)%(Extension)</Link>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ITheoremGlobalRewriter.cs" />

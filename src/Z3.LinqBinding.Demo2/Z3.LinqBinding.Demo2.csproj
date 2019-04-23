@@ -2010,6 +2010,7 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Z3-20190104" Version="4.8.4" />
   </ItemGroup>
 
   <ItemGroup>
