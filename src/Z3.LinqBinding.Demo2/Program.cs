@@ -16,16 +16,17 @@ namespace Z3.LinqBinding.Demo
 		{
 
 
-			SimpleExamples();
+            //SimpleExamples();
 
-			TestSudoku();
+            //TestSudoku();
 
-			TestMissionariesAndCannibals();
+            //TestMissionariesAndCannibals();
 
-			//MealPlanning();
+            MealPlanning();
 
-			//AllSamplesInSameContext();
-			Console.WriteLine("End Program");
+            //AllSamplesInSameContext();
+            //TestAllSudokus();
+            Console.WriteLine("End Program");
 			Console.Read();
 
 
@@ -67,7 +68,7 @@ namespace Z3.LinqBinding.Demo
 		private static void MealPlanning()
 		{
 			//Testing meal planning
-			var basePath = @"..\..\..\App_Data\Meals\";
+			var basePath = @"..\..\..\..\App_Data\Meals\";
 			var dietetique = Dietetique.Load(basePath);
 
 			var patients = new List<Patient>();
@@ -175,6 +176,42 @@ namespace Z3.LinqBinding.Demo
 
 		}
 
+		private static void TestAllSudokus()
+		{
+
+			var sudokus = SudokuAsArray.ParseFile(@"E:\Dropbox\IA101\TPs\Sudoku_top95.txt");
+			var sw = Stopwatch.StartNew();
+			TimeSpan startTime, duration;
+			using (var ctx = new Z3Context())
+			{
+
+				//ctx.Log = Console.Out;
+				foreach (var sudoku in sudokus)
+				{
+					var theorem = sudoku.CreateTheorem(ctx);
+					
+					startTime = sw.Elapsed;
+					SudokuAsArray result;
+					//theorem.DefaultCollectionHandling = CollectionHandling.Array;
+					//result = theorem.Solve();
+					//Console.WriteLine(result);
+					// duration = sw.Elapsed - startTime;
+					//Console.WriteLine($"duration array: {duration.TotalMilliseconds} ms");
+					theorem.DefaultCollectionHandling = CollectionHandling.Constants;
+					//startTime = sw.Elapsed;
+					result = theorem.Solve();
+					//duration = sw.Elapsed - startTime;
+					//Console.WriteLine($"duration constants: {duration.TotalMilliseconds} ms");
+					Console.WriteLine(result);
+				}
+
+			}
+			Console.WriteLine($"total duration {sw.Elapsed.TotalSeconds} s");
+
+
+
+		}
+
 
 		private static void TestMissionariesAndCannibals()
 		{
@@ -227,6 +264,7 @@ namespace Z3.LinqBinding.Demo
 				endTime = stopwatch.Elapsed;
 				Console.WriteLine("Minimal Solution to missionaries and cannibals simplified through Z3 optimization");
 				Console.WriteLine($"Time to solve: {endTime - startTime}");
+              
 			}
 		}
 
