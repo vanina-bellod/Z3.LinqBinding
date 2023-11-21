@@ -16,13 +16,13 @@ namespace Z3.LinqBinding.Demo
 		{
 
 
-            //SimpleExamples();
+			SimpleExamples();
 
-            //TestSudoku();
+			TestSudoku();
 
-            //TestMissionariesAndCannibals();
+			TestMissionariesAndCannibals();
 
-            MealPlanning();
+			MealPlanning();
 
             //AllSamplesInSameContext();
             //TestAllSudokus();
