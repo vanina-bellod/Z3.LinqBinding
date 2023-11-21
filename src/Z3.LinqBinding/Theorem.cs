@@ -589,6 +589,42 @@ namespace Z3.LinqBinding
                     case TypeCode.Object:
                         if (parameterType.IsArray || (parameterType.IsGenericType && typeof(ICollection).IsAssignableFrom(parameterType.GetGenericTypeDefinition())))
                         {
+	                        var existingMember = parameter.GetValue(destinationObject, null);
+							value = ExtractCollection(existingMember, context, model, subEnv, parameter, parameterType);
+                        }
+                        else
+                        {
+                            value = GetSolution(parameterType, context, model, subEnv);
+                        }
+                        break;
+                    default:
+                        throw new NotSupportedException("Unsupported parameter type for " + parameter.Name + ".");
+                }
+            }
+
+
+
+            //
+            // If there was a type mapping, we need to convert back to the original type.
+            // In that case we expect a constructor with the mapped type to be available.
+            //
+            if (parameterTypeMapping != null)
+            {
+                var ctor = parameter.PropertyType.GetConstructor(new Type[] { parameterType });
+                if (ctor == null)
+                    throw new InvalidOperationException("Could not construct an instance of the mapped type " + parameter.PropertyType.Name + ". No public constructor with parameter type " + parameterType + " found.");
+
+                value = ctor.Invoke(new object[] { value });
+            }
+
+
+            return value;
+        }
+
+        private object ExtractCollection(object existingMember, Context context, Model model, Environment subEnv,
+	        PropertyInfo parameter, Type parameterType)
+        {
+	        object value;
                             Type eltType;
                             if (parameterType.IsArray)
                             {
@@ -611,7 +647,7 @@ namespace Z3.LinqBinding
                             //todo: deal with keys and length in a more robust way
                             var keyType = typeof(int);
                             
-                            var existingMember = parameter.GetValue(destinationObject, null);
+	        
                             ArrayList existingCollection = null;
                             int length = 0;
                             if (existingMember != null)
@@ -670,6 +706,9 @@ namespace Z3.LinqBinding
                                         case TypeCode.String:
                                             numVal = numValExpr.String;
                                             break;
+                        case TypeCode.Byte:
+                            numVal = (byte)((IntNum)numValExpr).Int;
+                            break;
                                         case TypeCode.Int16:
                                         case TypeCode.Int32:
                                             numVal = ((IntNum)numValExpr).Int;
@@ -698,8 +737,17 @@ namespace Z3.LinqBinding
                                         case TypeCode.Object:
                                             if (subSubEnv != null)
                                             {
+						        if (eltType.IsArray || (eltType.IsGenericType && typeof(ICollection).IsAssignableFrom(eltType.GetGenericTypeDefinition())))
+						        {
+									var existingSubMember = numVal;
+									numVal = ExtractCollection(existingSubMember, context, model, subSubEnv, parameter, eltType);
+						        }
+						        else
+						        {
                                                 numVal = GetSolution(eltType, context, model, subSubEnv);
                                             }
+					        }
+
                                             break;
                                         default:
                                             throw new NotSupportedException(
@@ -711,34 +759,9 @@ namespace Z3.LinqBinding
                                 results.Add(numVal);
                             }
 
-                            value = parameterType.IsArray ? results.ToArray(eltType) : Activator.CreateInstance(parameterType, results.ToArray(eltType));
-                        }
-                        else
-                        {
-                            value = GetSolution(parameterType, context, model, subEnv);
-                        }
-                        break;
-                    default:
-                        throw new NotSupportedException("Unsupported parameter type for " + parameter.Name + ".");
-                }
-            }
-
-
-
-            //
-            // If there was a type mapping, we need to convert back to the original type.
-            // In that case we expect a constructor with the mapped type to be available.
-            //
-            if (parameterTypeMapping != null)
-            {
-                var ctor = parameter.PropertyType.GetConstructor(new Type[] { parameterType });
-                if (ctor == null)
-                    throw new InvalidOperationException("Could not construct an instance of the mapped type " + parameter.PropertyType.Name + ". No public constructor with parameter type " + parameterType + " found.");
-
-                value = ctor.Invoke(new object[] { value });
-            }
-
-
+	        value = parameterType.IsArray
+		        ? results.ToArray(eltType)
+		        : Activator.CreateInstance(parameterType, results.ToArray(eltType));
             return value;
         }
 
@@ -834,6 +857,7 @@ namespace Z3.LinqBinding
         {
             switch (Type.GetTypeCode(val.GetType()))
             {
+                case TypeCode.Byte:
                 case TypeCode.Int16:
                 case TypeCode.Int32:
                 case TypeCode.Int64:
@@ -1074,15 +1098,22 @@ namespace Z3.LinqBinding
             }
 
             Expr target;
-            if (targetExpression.NodeType == ExpressionType.MemberAccess)
+            if (targetExpression.NodeType == ExpressionType.MemberAccess || targetExpression.NodeType == ExpressionType.ArrayIndex)
             {
                 if (childHierarchy == null)
                 {
                     childHierarchy = new List<Expression>();
                 }
                 childHierarchy.AddRange(argumentExpressions);
-                target = VisitMember(context, environment, (MemberExpression)targetExpression, param,
-                    childHierarchy);
+                if (targetExpression.NodeType == ExpressionType.MemberAccess)
+                {
+	                target = VisitMember(context, environment, (MemberExpression)targetExpression, param, childHierarchy);
+				}
+                else
+                {
+					target = VisitCollectionAccess(context, environment, targetExpression, param, childHierarchy);
+				}
+				
 
                 if (!(target is ArrayExpr))
                 {
