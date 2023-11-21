@@ -68,7 +68,7 @@ namespace Z3.LinqBinding.Demo
 		private static void MealPlanning()
 		{
 			//Testing meal planning
-			var basePath = @"..\..\..\..\App_Data\Meals\";
+			var basePath = @"..\..\..\App_Data\Meals\";
 			var dietetique = Dietetique.Load(basePath);
 
 			var patients = new List<Patient>();
